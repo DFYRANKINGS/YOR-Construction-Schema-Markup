@@ -1,0 +1,64 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "YOR Construction & Investments, Inc.",
+  "url": "https://yorconstruction.com/",
+  "logo": "https://yorconstruction.com/logo.png",
+  "foundingDate": "2009",
+  "description": "Licensed general construction company specializing in residential and commercial projects including room additions, remodeling, ADUs, and turn-key development services.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "12135 Miranda Street, Suite 204",
+    "addressLocality": "Valley Village",
+    "addressRegion": "CA",
+    "postalCode": "91607",
+    "addressCountry": "US"
+  },
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+1-888-457-7746",
+      "contactType": "customer service"
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+1-818-925-6810",
+      "contactType": "project inquiries"
+    }
+  ],
+  "sameAs": [
+    "https://www.instagram.com/yorconstruction/",
+    "https://www.linkedin.com/in/yorconstruction",
+    "https://www.yelp.com/biz/yor-construction-los-angeles",
+    "https://www.houzz.com/professionals/general-contractor/yor-construction-and-investments-inc-pfvwus-pf~1555433"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Construction Services",
+    "itemListElement": [
+      {
+        "@type": "OfferCatalog",
+        "name": "Residential Services",
+        "itemListElement": [
+          {"@type": "Offer", "name": "Room Additions"},
+          {"@type": "Offer", "name": "Bathroom Remodeling"},
+          {"@type": "Offer", "name": "ADU Construction"}
+        ]
+      },
+      {
+        "@type": "OfferCatalog",
+        "name": "Commercial Services",
+        "itemListElement": [
+          {"@type": "Offer", "name": "Tenant Improvements"},
+          {"@type": "Offer", "name": "Design-Build"}
+        ]
+      }
+    ]
+  },
+  "taxID": "Available upon request",
+  "knowsAbout": ["Construction Management", "Green Building", "LEED Certification"],
+  "award": ["GAF Master Elite Contractor", "Trex Platinum Recognition"],
+  "memberOf": ["Builditgreen.org", "Energy Star Partner"]
+}
+</script>
