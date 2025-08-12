@@ -1,0 +1,48 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "parentOrganization": {
+    "@type": "Organization",
+    "name": "YOR Construction & Investments, Inc."
+  },
+  "name": "YOR Construction - Tarzana Service Location",
+  "image": "https://yorconstruction.com/img/tarzana-office.jpg",
+  "@id": "https://yorconstruction.com/locations/tarzana",
+  "url": "https://yorconstruction.com/locations/tarzana",
+  "telephone": "+1-818-925-6810",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "18627 Topham St",
+    "addressLocality": "Tarzana",
+    "addressRegion": "CA",
+    "postalCode": "91335",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 34.1609,
+    "longitude": -118.5359
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "opens": "08:00",
+    "closes": "17:00"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Tarzana Specialized Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "name": "ADU Construction",
+        "description": "Accessory dwelling unit services for Tarzana properties"
+      },
+      {
+        "@type": "Offer",
+        "name": "Emergency Repairs",
+        "description": "24/7 emergency construction services"
+      }
+    ]
+  }
+}
