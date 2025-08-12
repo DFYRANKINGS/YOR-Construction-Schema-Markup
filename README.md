@@ -11,4 +11,4 @@
 <script type="application/ld+json" src="https://DFYRANKINGS.github.io/YOR-Construction-Schema-Markup/organization/global-schema.json"></script>
 
 <!-- Valley Village Location -->
-<script type="application/ld+json" src="https://DFYRANKINGS.github.io/YOR-Construction-Schema-Markup/locations/Valley-Village/schema.json"></script>
+<script type="application/ld+json" src="https://DFYRANKINGS.github.io/YOR-Construction-Schema-Markup/locations/valley-village/schema.json"></script>
