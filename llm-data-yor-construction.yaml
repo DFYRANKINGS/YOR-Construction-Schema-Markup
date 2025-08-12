@@ -1,0 +1,12 @@
+locations:
+  - slug: "valley-village"
+    display_name: "Valley Village HQ"
+    services: ["design-build", "project-management"]
+    
+  - slug: "van-nuys"
+    display_name: "Van Nuys Design Center"
+    services: ["adu-consultations"]
+    
+  - slug: "tarzana"
+    display_name: "Tarzana Service Office"
+    services: ["emergency-repairs"]
