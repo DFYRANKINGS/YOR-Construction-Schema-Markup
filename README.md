@@ -2,13 +2,17 @@
 
 ## Structure
 - `/organization` - Company-wide schema markup
-- `/locations/[city]` - Location-specific markup (e.g., `Valley-Village`, `Van-Nuys`)
+- `/locations/[city]` - Location-specific markup
 - `/llm-data` - Machine-readable business data
 
-## Usage
+## Usage (Working Links)
 ```html
 <!-- Organization Schema -->
-<script type="application/ld+json" src="https://DFYRANKINGS.github.io/YOR-Construction-Schema-Markup/organization/global-schema.json"></script>
+<script type="application/ld+json" 
+        src="https://raw.githubusercontent.com/DFYRANKINGS/YOR-Construction-Schema-Markup/main/organization/global-schema.json">
+</script>
 
 <!-- Valley Village Location -->
-<script type="application/ld+json" src="https://DFYRANKINGS.github.io/YOR-Construction-Schema-Markup/locations/valley-village/schema.json"></script>
+<script type="application/ld+json" 
+        src="https://raw.githubusercontent.com/DFYRANKINGS/YOR-Construction-Schema-Markup/main/locations/valley-village/schema.json">
+</script>
