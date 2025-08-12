@@ -1,0 +1,15 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "parentOrganization": {
+    "@id": "https://yorconstruction.com/#organization"
+  },
+  "@id": "https://yorconstruction.com/locations/valley-village",
+  "name": "YOR Construction Headquarters",
+  "additionalType": "CorporateOffice",
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 34.1672,
+    "longitude": -118.3990
+  }
+}
