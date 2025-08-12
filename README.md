@@ -2,17 +2,13 @@
 
 ## Structure
 - `/organization` - Company-wide schema markup
-- `/locations/[city]` - Location-specific markup
+- `/locations/[city]` - Location-specific markup (e.g., `Valley-Village`, `Van-Nuys`)
 - `/llm-data` - Machine-readable business data
 
 ## Usage
 ```html
-<!-- Include in your site's <head> -->
-<script type="application/ld+json" src="https://cdn.yorconstruction.com/schema/organization/global-schema.jsonld"></script>
+<!-- Organization Schema -->
+<script type="application/ld+json" src="https://DFYRANKINGS.github.io/YOR-Construction-Schema-Markup/organization/global-schema.json"></script>
 
-<!-- Location-specific -->
-<script type="application/ld+json" src="https://cdn.yorconstruction.com/schema/locations/valley-village/schema.jsonld"></script>
-```
-
-## License
-Files are licensed under [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
+<!-- Valley Village Location -->
+<script type="application/ld+json" src="https://DFYRANKINGS.github.io/YOR-Construction-Schema-Markup/locations/Valley-Village/schema.json"></script>
