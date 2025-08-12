@@ -2,21 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Headquarters -->
   <url>
-    <loc>https://yorconstruction.com/schema/locations/valley-village.jsonld</loc>
+    <loc>https://raw.githubusercontent.com/DFYRANKINGS/YOR-Construction-Schema-Markup/main/locations/valley-village/schema.json</loc>
     <lastmod>2024-06-15</lastmod>
     <priority>1.0</priority>
   </url>
   
   <!-- Van Nuys Office -->
   <url>
-    <loc>https://yorconstruction.com/schema/locations/van-nuys.jsonld</loc>
+    <loc>https://raw.githubusercontent.com/DFYRANKINGS/YOR-Construction-Schema-Markup/main/locations/van-nuys/schema.json</loc>
     <lastmod>2024-06-15</lastmod>
     <priority>0.9</priority>
   </url>
   
   <!-- Tarzana Service Location -->
   <url>
-    <loc>https://yorconstruction.com/schema/locations/tarzana.jsonld</loc>
+    <loc>https://raw.githubusercontent.com/DFYRANKINGS/YOR-Construction-Schema-Markup/main/locations/tarzana/schema.json</loc>
     <lastmod>2024-06-15</lastmod>
     <priority>0.8</priority>
   </url>
