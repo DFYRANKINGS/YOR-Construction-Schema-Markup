@@ -1,1 +1,17 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "parentOrganization": "YOR Construction & Investments, Inc.",
+  "name": "YOR Construction - Van Nuys Office",
+  "telephone": "+1-818-925-6810",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "6308 Woodman Ave, Suite 210",
+    "addressLocality": "Van Nuys",
+    "addressRegion": "CA",
+    "postalCode": "91401"
+  }
+}
+</script>
 
