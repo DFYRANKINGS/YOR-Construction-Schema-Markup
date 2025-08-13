@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How often should the interior of a house be repainted?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Repainting frequency depends on room usage and paint quality: (1) High-traffic areas (hallways, kitchens) - Every 3-5 years, (2) Bedrooms and living rooms - Every 5-7 years, (3) Ceilings - Every 7-10 years. Premium paints (e.g., Benjamin Moore Regal) last 35-50% longer than budget options. Signs you need repainting include visible stains, fading, cracking, or when cleaning leaves marks on walls."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I paint walls or trim first when doing interior painting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Professional painters recommend this sequence: (1) Ceiling first (if being painted), (2) Trim and doors next (allows clean lines when cutting in walls), (3) Walls last (can overlap onto dried trim paint). Use 2-inch angled brushes for trim and rollers with 3/8-1/2 inch nap for walls. This method reduces touch-ups and creates sharp transitions between surfaces."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is it okay to paint inside when it's raining or humid?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "High humidity (above 85%) causes multiple issues: (1) Water-based paints dry too slowly, risking drips, (2) Oil-based paints may develop a cloudy finish, (3) Adhesion problems can occur. Ideal conditions are 40-70% humidity at 50-85°F. If painting during rainy weather, use dehumidifiers and maintain good airflow with fans (but avoid direct blowing on wet paint)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many coats of paint and primer are necessary for best results?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Standard requirements: (1) Primer - One coat for new drywall or stain blocking (two for severe stains), (2) Paint - Two coats for color changes (second coat within 2-4 hours for best bonding), (3) Dark-to-light transitions may need extra primer coats. High-quality paints like Sherwin-Williams Emerald often provide full coverage in one coat over similar colors."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What tools and materials do professional painters use for interior paint repair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pro-grade toolkit includes: (1) Prep - Sandpaper (120-220 grit), spackle, and tack cloths, (2) Application - Purdy or Wooster brushes, microfiber rollers, and paint shields, (3) Materials - 100% acrylic paints for durability, stain-blocking primers like Kilz, and painter's caulk for gaps. Professionals also use extension poles for ceilings and color-matched putty for nail holes. Quality tools leave no brush marks or lap lines."
+      }
+    }
+  ]
+}

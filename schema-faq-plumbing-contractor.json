@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What kinds of insurance and licenses do you carry?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Reputable plumbing contractors should have: (1) **State plumbing license** (e.g., C-36 in California, Master Plumber license in Texas), (2) **General liability insurance** ($1M+ coverage), (3) **Workers' compensation**, and (4) **Surety bond** (required in most states). For gas line work, additional certifications like CSST training are needed. Always verify licenses through your state's licensing board - unlicensed plumbers can't pull permits for major work."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you specialize in certain types of plumbing repairs or installations?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Plumbing specialties include: (1) **Residential service** (leak repairs, fixture installs), (2) **Commercial systems** (grease traps, backflow prevention), (3) **Water treatment** (softeners, filtration), (4) **Gas line work** (CSST, black iron piping), and (5) **Trenchless sewer repair** (pipe lining/bursting). Ask about their most frequent jobs - companies doing 50+ similar projects annually typically have refined processes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are your fees and are there any additional charges I should expect?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Standard pricing: (1) **Hourly rates**: $75-$150/hr (higher for emergencies), (2) **Flat fees**: $120-$350 for common services like drain cleaning, (3) **Materials markup**: 15-30% over wholesale. Potential extra costs: (a) After-hours fees (50-100% surcharge), (b) Access challenges (crawl space work adds $200-$500), (c) Permit fees ($50-$500 for major work). Reputable plumbers provide written estimates detailing all potential charges."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer emergency or 24-hour service?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Service options vary: (1) **24/7 availability** - True emergencies (burst pipes, sewage backups) typically answered within 2 hours, (2) **After-hours rates** - Usually 1.5-2x normal fees (10pm-7am), (3) **Dispatch protocols** - Look for companies with dedicated emergency lines (not just voicemail). Ask their average response time - top providers guarantee <4 hour response for critical issues."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you guarantee and stand behind your work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Professional guarantees include: (1) **Workmanship warranty** - 1-5 years on repairs/installs, (2) **Parts warranty** - Matches manufacturer coverage (often 10+ years for water heaters), (3) **Recall service** - Free adjustments if issues arise post-install. The best offer follow-up inspections - e.g., checking pipe connections 30 days after major work. Always get warranties in writing - verbal promises aren't enforceable."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you provide customer references?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Quality plumbers should supply: (1) **3-5 recent references** (call to ask about punctuality/cleanup), (2) **Project photos** - Showing proper pipe supports and venting, (3) **Online reviews** - Check patterns (multiple complaints about leaks/redos are red flags), and (4) **License verification** - Through state boards showing no major violations. For large jobs (>$5K), request to speak with clients who had similar work done."
+      }
+    }
+  ]
+}

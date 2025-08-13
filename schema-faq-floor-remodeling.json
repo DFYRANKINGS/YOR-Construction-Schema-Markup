@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What common mistakes should I avoid when sanding or refinishing floors?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Critical refinishing mistakes to avoid: (1) **Sanding too aggressively** - Never remove more than 1/32\" per pass (use 36-60 grit for initial sanding), (2) **Poor prep work** - Failing to countersink nails leads to torn sandpaper, (3) **Inadequate ventilation** - Polyurethane fumes require proper airflow, (4) **Rushing between coats** - Wait 4-6 hours between water-based poly applications, (5) **Skipping edge work** - Use detail sanders for perimeter areas. These errors account for 75% of refinishing failures."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I decide between types of flooring materials?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Material selection factors: (1) **Lifestyle** - Pets/kids favor scratch-resistant options like luxury vinyl plank (LVP), (2) **Moisture exposure** - Tile/porcelain for bathrooms (PEI rating 3+), (3) **Budget** - Laminate ($2-$5/sq ft) vs. hardwood ($8-$15/sq ft), (4) **Climate** - Engineered wood (3/8\" wear layer) for humidity swings, (5) **Installation** - Floating floors for DIYers. Consider Janka hardness ratings (1300+ for active households)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the typical timeline for floor remodeling projects?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Project durations: (1) **Refinishing** - 3-5 days (1 day sanding, 2-3 days finishing, 24hr cure), (2) **New install** - 1-2 days per 500 sq ft (prep included), (3) **Tile work** - 3-7 days (including mortar cure). Delays occur from: (a) Moisture testing (48hrs for concrete), (b) Special order materials (2-6 weeks), (c) Complex patterns (herringbone adds 30% time)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How to deal with stains, water damage, or dark spots on wood floors?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Remediation methods: (1) **Surface stains** - Oxalic acid treatments (wood bleach), (2) **Water marks** - Fine sanding (220 grit) + touch-up stain, (3) **Black stains** - Often require board replacement (indicates fungal growth), (4) **Pet stains** - Hydrogen peroxide soaks for urine odors. For damage >25% of a board's width, replacement is better than repair. Always test treatments in inconspicuous areas first."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should the entire floor be refinished if only a small area is damaged?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Spot repair viability depends on: (1) **Floor age** - Pre-1970s planks blend better than modern engineered wood, (2) **Finish type** - Oil-modified polyurethane is easier to patch than water-based, (3) **Damage depth** - Scratches affecting only the finish can be screened/recoated. For >3 damaged boards or >10% affected area, full refinishing ensures uniform appearance (matching aged wood is nearly impossible)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What maintenance is recommended after floor remodeling?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Post-installation care: (1) **Wait times** - 24hrs before light use, 72hrs for furniture (cured in 30 days), (2) **Cleaning** - pH-neutral cleaners only (avoid steam mops on wood), (3) **Protection** - Felt pads under furniture, area rugs in high-traffic zones, (4) **Recoating** - Every 3-5 years for polyurethane floors (no sanding needed). Maintain 35-55% humidity to prevent gaps/cupping."
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Are you licensed and insured for deck construction projects?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Reputable deck contractors should carry: (1) A valid state contractor's license (verify through your state licensing board), (2) General liability insurance ($1M+ coverage), and (3) Workers' compensation. For elevated decks over 30 inches, many states require additional structural engineering certifications. Always request current certificates and verify coverage directly with insurers - uninsured contractors risk making homeowners liable for accidents."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What types of decking materials do you specialize in?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Quality contractors typically work with: (1) Pressure-treated wood (most affordable at $15-$25/sq ft installed), (2) Composite decking (low-maintenance, $30-$45/sq ft), (3) PVC (mold-resistant, $35-$55/sq ft), and (4) Tropical hardwoods like ipe (premium, $40-$70/sq ft). Specialization matters - composite installers need different tools/fasteners than wood experts. Ask about manufacturer certifications (e.g., TrexPro or TimberTech Platinum installers)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you provide references or a portfolio of completed decks?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Professional deck builders should offer: (1) 3-5 recent client references (call to ask about cleanup, timelines), (2) Before/after photos of similar projects, (3) Addresses of local installations you can drive by, and (4) Reviews on third-party sites like Houzz. Beware of contractors who only show catalog photos - reputable ones document actual completed work with close-ups of railings, stairs, and structural details."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you handle unexpected problems or project delays?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Experienced deck contractors plan for: (1) Material delays (keep 10% extra lumber on-site), (2) Weather (include buffer days in contract), (3) Hidden rot/structural issues (perform pre-build inspections). The best include change order clauses specifying: (a) 24-hour notice for additional costs, (b) Documentation requirements for unforeseen issues, and (c) Daily delay penalties after agreed deadlines (rare but negotiable)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do deck projects require permits, and do you manage them?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most jurisdictions require permits for: (1) Decks over 30 inches high, (2) Attached structures, (3) Electrical (lighting/outlets). Professional contractors typically: (a) Pull permits ($150-$800 depending on scope), (b) Schedule inspections (footings, framing, final), and (c) Provide stamped engineering drawings if needed. Always confirm permit responsibility in writing - some contractors charge extra for this service."
+      }
+    }
+  ]
+}

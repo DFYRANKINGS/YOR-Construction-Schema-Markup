@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of home improvements offer the best return on investment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Top ROI remodeling projects in 2024: (1) **Minor kitchen remodel** (92% ROI, $15,000-$30,000), (2) **Bathroom addition** (86% ROI, $25,000-$50,000), (3) **Garage door replacement** (102% ROI, $1,200-$3,500), (4) **Siding replacement** (75% ROI, $6,000-$15,000), and (5) **Deck addition** (80% ROI, $4,000-$12,000). Focus on curb appeal and functional upgrades rather than luxury features for maximum resale value."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do warranties work on remodeling projects?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Remodeling warranties typically include: (1) **Workmanship** (1-5 years covering installation defects), (2) **Materials** (varies by manufacturer - e.g., 25 years for CertainTeed siding), and (3) **Structural** (10+ years for load-bearing changes). Warranties often require proof of professional installation and proper maintenance. Always get warranty terms in writing - 68% of contractors offer limited coverage unless specified otherwise."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who will manage my remodeling project and coordinate subcontractors?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Professional management options: (1) **General contractor** - Oversees all trades and schedules (charges 10-20% of project cost), (2) **Design-build firm** - Single point of contact for design and construction, (3) **Construction manager** - For complex projects (>$100K). Demand daily logs and weekly meetings - top firms use apps like BuilderTrend for real-time updates on 15+ subcontractor trades."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I budget realistically for a full remodel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Budgeting guidelines: (1) Allocate 20% for contingencies (unexpected structural issues), (2) Break down costs: 35% labor, 25% materials, 15% fixtures/appliances, 10% permits/fees, 15% design/management, (3) Prioritize 'must-haves' vs. 'nice-to-haves', (4) Get 3 detailed bids (compare line items not just totals). The average full-home remodel costs $100-$200/sq ft - high-end projects exceed $400/sq ft in urban areas."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you handle changes or unforeseen expenses during a remodel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Professional change order process: (1) Written documentation of all changes (no verbal agreements), (2) 48-hour notice for cost approvals, (3) Transparent pricing (labor + materials + 15-20% markup), (4) Digital tracking via project management software. Common unforeseen costs: electrical upgrades ($2,000-$8,000), plumbing re-routing ($1,500-$5,000), or structural repairs ($5,000-$25,000)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What permits and approvals are needed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Typical requirements: (1) **Building permits** (structural/electrical/plumbing changes), (2) **Zoning approvals** (additions/ADUs), (3) **HOA approvals** (exterior modifications), (4) **Historic district review** (if applicable). Permit costs range 1-2% of project value ($500-$5,000). Lead times: 2-8 weeks for major projects. Contractors typically handle permitting but homeowners must verify final inspections were completed."
+      }
+    }
+  ]
+}

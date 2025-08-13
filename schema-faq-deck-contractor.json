@@ -1,0 +1,62 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Are you licensed and insured for deck installations?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Reputable deck contractors should have: (1) State contractor's license (e.g., CSLB in California for projects over $500), (2) General liability insurance ($1M+ coverage), and (3) Workers' compensation (required in most states). For elevated decks over 30 inches, many jurisdictions require additional structural engineering certifications. Always verify credentials through your state's licensing board."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who is responsible for pulling permits, the homeowner or contractor?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Professional deck contractors typically handle permitting ($150-$800 depending on project scope), including: (1) Submitting engineered plans for decks over 30 inches, (2) Scheduling inspections, and (3) Addressing any corrections. Homeowners are usually only responsible for HOA approvals. Confirm permit responsibility in your contract - unpermitted decks can cause issues during home sales."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What materials do you recommend for decking and why?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Top material choices: (1) **Composite decking** ($30-$45/sq ft installed) - Low maintenance, 25+ year lifespan, fade-resistant; (2) **Pressure-treated wood** ($15-$25/sq ft) - Budget-friendly but requires annual sealing; (3) **PVC decking** ($35-$55/sq ft) - Mold/moisture resistant; (4) **Tropical hardwoods** ($40-$70/sq ft) - Premium durability but needs special fasteners. Climate considerations: Composite performs best in extreme temperatures, while cedar suits humid regions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you use your own installers or subcontractors?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Quality deck builders typically: (1) Employ in-house crews for framing/structural work, (2) May subcontract specialty trades (e.g., electrical for lighting), and (3) Vet all subcontractors (licensed/insured). Ask for the crew lead's experience - minimum 3 years with deck-specific projects. Companies using only subs often have less quality control."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What warranties do you provide for materials and workmanship?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Standard coverage includes: (1) **Materials** - 25-50 years for composites/PVC from manufacturers, (2) **Workmanship** - 2-10 years against structural issues, (3) **Fasteners/hardware** - 10+ years. Premium contractors offer transferable warranties and free annual inspections. Always get warranty terms in writing - exclusions often include damage from improper maintenance or acts of nature."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you provide references or a portfolio of past deck projects?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Professional deck builders should supply: (1) 3-5 recent client references (call to ask about cleanup/timelines), (2) Before/after photos of 10+ projects, (3) Addresses of local installations you can visit, and (4) Verified reviews on Google/Houzz. Beware of contractors who only show catalog photos - real portfolios include close-ups of railings, stairs, and structural connections."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you handle project timelines and unexpected delays?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Experienced contractors: (1) Provide written schedules with 2-3 day weather buffers, (2) Order materials 4-6 weeks in advance (composite decking often has lead times), (3) Conduct pre-construction utility markouts (48-hour requirement), and (4) Include delay clauses in contracts (e.g., $100/day penalties after agreed deadline). The best track 90%+ on-time completion for standard decks."
+      }
+    }
+  ]
+}

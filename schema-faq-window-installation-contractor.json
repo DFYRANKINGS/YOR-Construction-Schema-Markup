@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does window installation usually take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Standard window replacement typically takes **30 minutes to 1 hour per window** for professional installers, with full-home projects (10-15 windows) often completed in **1-2 days**. Factors affecting timeline include: (1) Custom windows (adds 1-2 weeks for manufacturing), (2) Structural repairs (rot/water damage), (3) Weather delays, and (4) Permit approvals (2-8 weeks if required). Winter installations are possible but may require temperature-sensitive materials :cite[5]:cite[10]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need to be home during the entire window replacement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "While not always mandatory, **presence is recommended** during: (1) Initial walkthrough to confirm placement, (2) Final inspection to verify operation/sealing, and (3) If unexpected issues arise (e.g., rot discovery). Many contractors provide lockboxes for key access if homeowners can’t stay. Prep work (moving furniture, clearing window areas) should be done beforehand :cite[10]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are common problems during window installation I should be aware of?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Key issues to monitor: (1) **Improper sealing** - Polyurethane foam alone can lead to moisture infiltration; demand vapor-permeable exterior tapes + interior vapor-tight seals. (2) **Rushed adhesive curing** - Bubbling/peeling occurs if adhesives dry too fast in direct sunlight. (3) **Frame misalignment** - Uneven openings cause drafts. (4) **Inadequate drainage** - Missing weep holes lead to water pooling. (5) **Ignoring climate factors** - Low-E glass coatings must match regional needs :cite[1]:cite[8]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I dispose of old windows after replacement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Disposal options: (1) **Recycling** - Separate glass (tempered requires special handling), aluminum frames (highly recyclable), and vinyl/wood (location-dependent). (2) **Donation** - Architectural salvage yards accept vintage windows. (3) **Contractor removal** - 60% of window companies include eco-friendly disposal (ask about practices). DIY disposal requires: (a) Wrapping broken glass in newspaper, (b) Checking local bulk pickup rules, and (c) Avoiding illegal dumping (heavy fines apply) :cite[7]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What types of windows are best for energy efficiency?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Top energy-efficient choices: (1) **Casement/Awning windows** - Tightest seal when closed (U-factor ≤0.30). (2) **Triple-pane glass** - Reduces heat loss 40-50% vs. double-pane. (3) **Low-E4® coatings** - Reflects infrared light (climate-specific versions available). (4) **Fibrex/composite frames** - Outperforms vinyl/wood in insulation. (5) **Argon/Krypton gas fills** - Improves thermal resistance. Look for ENERGY STAR® Most Efficient 2025 certification and NFRC labels for verified performance :cite[8]:cite[9]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I evaluate the quality of window installation work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Post-installation checklist: (1) **Operational test** - All sashes open/close smoothly. (2) **Seal inspection** - No gaps >1/8\" around frames. (3) **Water test** - Spray hose to check for leaks. (4) **Insulation verification** - Thermal imaging can detect voids. (5) **Documentation** - Ensure warranty paperwork specifies labor coverage (typically 2-10 years). Red flags: Condensation between panes, uneven gaps, or drafts exceeding 1.5 CFM/sq ft when tested :cite[1]:cite[4]."
+      }
+    }
+  ]
+}

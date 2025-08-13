@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of materials are best for retaining walls in my environment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Material selection depends on climate and soil conditions: (1) **Concrete blocks** - Best for freeze-thaw regions (rated for 50+ years), (2) **Natural stone** - Ideal for drainage-heavy areas (3-4x more permeable), (3) **Pressure-treated timber** - Budget option for dry climates (15-20 year lifespan), (4) **Segmental retaining wall (SRW) units** - Engineered for slopes >4 ft tall. In coastal areas, use polymer-coated blocks to resist salt corrosion."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do contractors ensure the retaining wall is structurally sound?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Professional contractors implement: (1) **Geotechnical analysis** - Soil testing for composition and water table levels, (2) **Proper base prep** - 6-12\" compacted gravel base with geogrid reinforcement for walls >3 ft, (3) **Drainage systems** - Perforated pipes and gravel backfill (1 cu ft per linear foot), (4) **Engineering stamps** - Required for walls >4 ft in most jurisdictions, (5) **Batter design** - 1\" setback per foot of height for gravity walls."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What permits are required for building retaining walls of different heights?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Permit thresholds vary by location: (1) **Under 3 ft** - Often exempt but may need zoning approval, (2) **3-4 ft** - Typically requires basic construction permit ($150-$400), (3) **Over 4 ft** - Mandatory engineered plans ($800-$2,500) and inspections, (4) **Property line walls** - May need neighbor agreements. Coastal/flood zones often have stricter requirements - always check with local building department first."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much will a retaining wall project cost including labor and materials?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Typical price ranges per linear foot: (1) **Timber** - $20-$30 (labor 40%), (2) **Concrete blocks** - $30-$50 (labor 50%), (3) **Natural stone** - $50-$100 (labor 60%). Additional costs: Engineering ($1,000+), demolition ($3-$8/sq ft), and drainage systems ($15-$25/lf). A 50-foot SRW wall averages $4,500-$7,500 installed. Get itemized quotes showing base prep, backfill, and capstone details."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does the construction typically take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Project timelines: (1) **Simple walls (<3 ft)** - 2-3 days (after permits), (2) **Engineered walls (4-6 ft)** - 5-10 days, (3) **Large/complex installations** - 2-4 weeks. Factors affecting duration: (a) Soil conditions (clay adds 30% time), (b) Weather (no pouring in <40°F), (c) Material availability (SRW units often have 2-3 week lead times). Professional crews install 25-50 lf/day depending on wall height."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can contractors provide a detailed estimate and timeline upfront?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Reputable contractors supply: (1) **Material takeoffs** - Exact block/gravel quantities, (2) **Engineering drawings** - For walls >4 ft, (3) **Phase breakdown** - Excavation/base/installation days, (4) **Contingency clauses** - For unexpected bedrock/utilities. Beware of estimates without: (a) Soil analysis, (b) Drainage plans, or (c) Manufacturer specs. The best offer 3D renderings showing finished grades and water flow patterns."
+      }
+    }
+  ]
+}

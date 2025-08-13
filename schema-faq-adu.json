@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What exactly qualifies as an ADU under local laws?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An ADU is a secondary, self-contained dwelling with living, sleeping, kitchen, and bathroom facilities on the same lot as a primary residence. Key qualifications vary by location but generally include: (1) **Size limits** (e.g., max 850 sq ft in Charleston, SC :cite[4], or 50% of the primary home’s square footage in Greenville County :cite[9]); (2) **Zoning compliance** (allowed in single-family/multi-family zones :cite[6]); (3) **Occupancy rules** (e.g., owner-occupancy requirements in SC :cite[4]); and (4) **Design standards** (architectural consistency with the main home :cite[1]). Detached, attached, and conversion units (e.g., garage/basement) all qualify if they meet these criteria :cite[8]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the common costs involved in building an ADU?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ADU costs vary widely by type and location: (1) **Basement/garage conversions**: $60,000–$150,000; (2) **Detached new construction**: $110,000–$285,000; (3) **Attached units**: $100,000–$216,000 :cite[5]. Labor accounts for ~40% of costs, materials 45–50%, with additional expenses for permits ($1,350+), utilities ($3,400–$10,400), and site prep ($1,000–$5,800) :cite[5]. Costs per sq ft average $150–$300 but can exceed $600 for high-end finishes :cite[5]. Regional variations exist (e.g., $150K–$375K in Los Angeles vs. $110K–$290K in Atlanta) :cite[5]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do homeowners need to live on the property with an ADU?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Requirements vary by jurisdiction: (1) **South Carolina**: Owner must occupy either the primary home or ADU (no renting both unless exempt) :cite[4]:cite[9]; (2) **California**: No owner-occupancy mandate under newer laws (AB 976) :cite[6]. Some areas allow non-owner-occupied ADUs if rented long-term (e.g., 30+ day leases in SC :cite[1]). Always check local ordinances—cities like Charleston require recorded covenants restricting short-term rentals :cite[4]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What permits and regulations affect ADU construction?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Key requirements include: (1) **Permits**: Submit site plans, utility details, and energy reports; approval timelines vary (e.g., 60 days in California :cite[6]); (2) **Zoning**: ADUs typically allowed in residential zones with setbacks (e.g., 4 ft from property lines :cite[6]); (3) **Parking**: Often 1 space per ADU, waived near transit :cite[6]; (4) **Utility compliance**: Shared or independent systems must meet local codes :cite[1]; (5) **Covenants**: Some areas (e.g., Charleston) require recorded restrictions banning short-term rentals :cite[4]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do ADUs affect property taxes and resale value?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Property taxes**: Only the ADU’s value is added to assessments (no reassessment of the main home). Example: A $200K ADU at a 1% tax rate increases annual taxes by ~$2,000 :cite[7]:cite[8]. **Resale value**: ADUs can boost home value by 10–35% (e.g., ~24% in LA County :cite[7]), but appraisals vary due to limited comparable sales data. Rental income potential enhances marketability, though ADUs usually can’t be sold separately (except under programs like California’s AB 1033 :cite[6]) :cite[7]:cite[8]."
+      }
+    }
+  ]
+}

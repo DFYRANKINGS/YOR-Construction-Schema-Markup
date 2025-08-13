@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What type of garage door should I choose for replacement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The best garage door depends on your needs: **Steel** (durable, low-maintenance), **Wood** (aesthetic but requires upkeep), **Aluminum/Glass** (modern, good for natural light), or **Insulated Doors** (energy-efficient for attached garages). Consider climate, security, and curb appeal when choosing ."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What size garage door do I need?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Standard sizes are **8x7 ft** (single-car) or **16x7 ft** (double-car), but custom sizes exist. Measure the **opening width and height**, headroom (space above), and side room (space beside tracks). Professional measurement is recommended for accuracy ."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I install a garage door opener with my new door?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, if your old opener is outdated (over 10–15 years) or incompatible with the new door. Modern openers offer **smart connectivity, battery backup, and quieter operation**. A professional can ensure proper synchronization for safety and efficiency ."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does a garage door replacement cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Average costs range from **$750–$2,500**, depending on material, size, insulation, and labor. Basic steel doors start at ~$800, while custom wood or high-end insulated doors can exceed $4,000. Additional costs apply for openers or structural adjustments ."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I replace a single damaged panel instead of the whole door?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, **sectional garage doors** allow single-panel replacement ($150–$800 per panel), but older doors may require a full replacement if parts are discontinued. Tilt-up or one-piece doors must be fully replaced. A pro can assess compatibility and color matching ."
+      }
+    }
+  ]
+}

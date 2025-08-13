@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I choose between DIY or hiring a contractor for kitchen remodeling?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Choose DIY for cosmetic updates (painting, backsplash, hardware) if you have skills and time. Hire a contractor for structural changes (wall removal, plumbing/electrical work), cabinet installation, or complex layouts. Professionals ensure code compliance and often complete projects 30-50% faster. Always get 3+ quotes for comparison."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does a kitchen renovation typically cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Average costs range from $12,000 (minor) to $60,000+ (luxury). Mid-range remodels ($25,000-$35,000) typically include: semi-custom cabinets ($8,000-$15,000), quartz countertops ($3,000-$6,000), and appliance packages ($4,000-$8,000). Labor accounts for 30-35% of total costs. Get itemized quotes to avoid surprises."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are IKEA kitchens worth it for remodeling?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, for budget-conscious homeowners seeking modular designs. IKEA cabinets cost 40-60% less than custom ($3,000-$10,000 for average kitchen) with 25-year warranties. Downsides: Flat-pack assembly requires DIY skills or third-party installers, and door styles are limited. Pair with custom countertops for higher-end look."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why do kitchen renovations take so long?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Delays stem from: (1) Material lead times (custom cabinets: 8-12 weeks); (2) Inspection hold-ups; (3) Contractor scheduling; (4) Unforeseen issues (wiring, plumbing, structural). Average timeline: 6-12 weeks. Minimize delays by ordering materials early and adding 15% buffer time to estimates."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How to manage sourcing materials, suppliers, and trades during remodeling?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Key steps: (1) Create a master schedule coordinating plumbers, electricians, and carpenters; (2) Order all materials before demolition (critical path: cabinets → countertops → appliances); (3) Use a general contractor to manage subs or apps like BuilderTrend for DIY coordination. Always confirm delivery dates in writing."
+      }
+    }
+  ]
+}

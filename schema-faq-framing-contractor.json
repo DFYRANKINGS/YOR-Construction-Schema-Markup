@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is it necessary to hire a licensed and insured framing contractor?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, hiring a licensed and insured framing contractor is critical for structural work. Licensed framers (e.g., C-5 license holders in California) demonstrate 4+ years of verified experience and pass trade/law exams :cite[1]. Insurance ($1M+ general liability) protects you from injury lawsuits and subpar work :cite[6]. Unlicensed contractors risk voiding home insurance coverage and lack recourse for defects :cite[2]:cite[10]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the risks of using an unlicensed framer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Key risks include: (1) **No permits** - Illegal work can't be inspected, risking code violations :cite[2]; (2) **Injury liability** - Homeowners may pay medical costs for worker injuries :cite[6]; (3) **No warranties** - 78% of unlicensed framers offer no workmanship guarantees :cite[6]; (4) **Resale issues** - Undisclosed unpermitted work requires costly remediation when selling :cite[10]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do framing projects require building permits, and who is responsible for pulling them?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most framing projects require permits, especially for: (1) New construction :cite[8]; (2) Structural repairs (e.g., termite damage exceeding 10% of members) :cite[10]; (3) Additions altering load paths :cite[4]. Licensed contractors typically pull permits ($150-$800), while unlicensed ones shift this burden to homeowners :cite[2]. Always verify permit status with your local building department."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I assess the quality of framing work, especially regarding termite damage or wood rot repairs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Inspect for: (1) **Proper sistering** - New studs should overlap damaged ones by 3+ feet :cite[10]; (2) **Moisture control** - Treated lumber and vapor barriers in repaired areas :cite[3]; (3) **Alignment** - Laser-check wall plumbness (≤1/4\" variance over 8 ft) :cite[8]; (4) **Termite mitigation** - Soil treatments or borate wood preservatives applied post-repair :cite[7]. Request before/after photos from similar projects."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are typical timelines and costs for framing projects?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Costs**: (1) New construction: $7-$16/sq ft (labor $4-$10, materials $3-$6) :cite[4]; (2) Repairs: $20-$50/hr + materials :cite[9]. **Timelines**: (1) Full home: 1 week (simple) to 3 months (custom) :cite[8]; (2) Spot repairs: 1-3 days. Delays occur from permit approvals (2-8 weeks) or material shortages :cite[4]. Get written estimates specifying change order fees."
+      }
+    }
+  ]
+}

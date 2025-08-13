@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What fence style is best for my property and security needs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Recommended fence styles by purpose: (1) **Security**: 6-8 ft tall privacy fences (vinyl or metal with anti-climb features), (2) **Pet containment**: 4-6 ft high aluminum or wood with narrow picket spacing, (3) **Pool safety**: 4-5 ft high with self-closing gates (meeting local codes), (4) **Decorative**: Ornamental iron or short picket fences (3-4 ft), (5) **Noise reduction**: 6-8 ft solid wood or composite with sound-absorbing materials."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do different fence materials compare in terms of maintenance and longevity?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Material comparison: (1) **Vinyl**: 20-30 year lifespan, annual cleaning only, (2) **Wood**: 15-20 years, requires staining every 2-3 years, (3) **Aluminum**: 25+ years, occasional cleaning, (4) **Chain link**: 15-20 years, rust prevention needed, (5) **Composite**: 25+ years, no painting/staining. Climate considerations: Wood warps in humidity, vinyl may crack in extreme cold, and metal conducts heat in sunny areas."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are there local regulations or permits required for fence installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common regulations: (1) Height limits (typically 6 ft for backyards, 4 ft for front yards), (2) Setback requirements (2-8 ft from property lines), (3) HOA approvals for style/color, (4) Pool fence laws (self-latching gates, no climbable features). Most areas require permits for fences over 4 ft tall - contractors typically handle this process for $50-$300."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the estimated costs for various types of fences?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Price ranges per linear foot (installed): (1) Chain link: $12-$25, (2) Wood: $20-$45, (3) Vinyl: $30-$60, (4) Aluminum: $40-$80, (5) Wrought iron: $50-$150. Additional costs: Gates ($300-$2,500), removal of old fence ($3-$8 per ft), and terrain adjustments (slopes add 15-30%). Get 3-5 quotes as prices vary by 20-40% regionally."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How to choose a reliable fence contractor with proper licensing and insurance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Vetting checklist: (1) Verify state license through contractor board, (2) Request Certificate of Insurance ($1M+ liability), (3) Check BBB rating and local reviews, (4) Ask for 3 recent references, (5) Confirm they handle permits/surveys, (6) Look for manufacturer certifications (e.g., CertainTeed for vinyl). Avoid contractors who demand full payment upfront - 30-50% deposit is standard."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the typical installation timeframe for a fence?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Standard timelines: (1) Small residential (150 ft): 1-3 days, (2) Large/complex (300+ ft): 3-7 days, (3) Custom metal/ornamental: 2-4 weeks. Factors affecting schedule: (a) Weather (no concrete work in freezing temps), (b) Material availability (vinyl may have 2-4 week lead times), (c) Utility markouts (48-72 hours required). Professional contractors provide written schedules with weather contingencies."
+      }
+    }
+  ]
+}

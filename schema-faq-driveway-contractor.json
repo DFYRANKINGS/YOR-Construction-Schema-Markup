@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long has the driveway contractor been in business?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Look for contractors with: (1) Minimum 5 years specializing in driveway installations (not just general construction), (2) Physical business address (not P.O. boxes), (3) Established supplier relationships (indicates stability), and (4) At least 50 completed driveway projects in your region. Seasoned contractors will readily provide business registration dates and can show project evolution in their portfolio."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are they licensed and insured for driveway projects?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Essential credentials include: (1) State-issued contractor's license (verify online via your state's licensing board), (2) General liability insurance ($1M+ coverage), (3) Workers' compensation (required in most states), and (4) Bonding (for projects over $25,000). For specialty installations (permeable pavements, heated driveways), ask about additional certifications from organizations like the Interlocking Concrete Pavement Institute."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What materials do they use and how do those materials perform in different climates?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Climate-optimized materials: (1) **Asphalt**: Best for cold climates (flexes during freeze-thaw cycles) but requires sealing every 2-3 years, (2) **Concrete**: Ideal for hot/dry regions (lasts 25-40 years) but prone to cracking in freezing temps, (3) **Pavers**: Excellent for all climates (interlocking design accommodates movement) with 20-25 year lifespan, (4) **Gravel**: Budget option for rural areas but needs annual replenishing. Top contractors perform soil tests before recommending materials."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much will the driveway installation or repair cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Typical price ranges: (1) **New installation**: $4-$15/sq ft (asphalt) to $8-$30/sq ft (decorative concrete), (2) **Resurfacing**: $1.50-$4/sq ft for asphalt, $3-$10/sq ft for concrete, (3) **Full replacement**: 20-30% more than new installs due to demolition costs. Get itemized quotes including: base preparation (6-8" compacted gravel), drainage solutions, and finishing details like edging or sealants."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can they provide references or portfolio examples of their work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Reputable contractors should offer: (1) 5-10 local references from the past 2 years, (2) Google My Business reviews with before/after photos, (3) Addresses of nearby projects you can visit, and (4) Case studies showing problem driveways they've rehabilitated. Beware of stock photos - authentic portfolios include close-ups of transitions, drainage details, and curing processes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What warranties or guarantees do they offer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Standard coverage includes: (1) **Materials**: 20+ years for pavers, 1-5 years for asphalt, (2) **Workmanship**: 2-10 years (longer for concrete), (3) **Specialty**: Lifetime transferable warranties on premium installations (e.g., permeable pavers). Ensure warranties cover both structural integrity and surface defects, and require written documentation specifying maintenance requirements to keep coverage valid."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do they manage project timelines and communication?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Professional contractors use: (1) Detailed Gantt charts showing excavation, base prep, and curing phases, (2) Daily progress photos/videos shared via apps like BuilderTrend, (3) Dedicated project managers for updates (minimum weekly in-person meetings), and (4) Weather contingency plans (e.g., tarps for unexpected rain). The best guarantee 90%+ on-time completion - ask for their track record."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What precautions do they take to ensure long-term durability?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Critical durability measures: (1) 6-8" compacted gravel base (properly graded for drainage), (2) Reinforcement (rebar for concrete, geogrid for pavers), (3) Expansion joints in concrete (every 10-15 feet), (4) Proper slope (1/4" per foot minimum), and (5) Cure times respected (7+ days for concrete before use). Top contractors perform soil compaction tests and provide maintenance guides post-installation."
+      }
+    }
+  ]
+}

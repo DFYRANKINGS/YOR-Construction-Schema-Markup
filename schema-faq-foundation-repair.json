@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the common signs of foundation problems?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Key warning signs include: (1) Exterior wall cracks (especially horizontal or stair-step patterns in brick), (2) Interior cracks wider than 1/4\" around doors/windows, (3) Uneven or bouncing floors, (4) Doors/windows that stick or won’t latch, (5) Gaps between walls/cabinets, (6) Bowing basement walls, and (7) Pooling water near the foundation. Texas homes with clay soil are particularly prone to foundation shifts from soil expansion :cite[1]:cite[5]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does foundation repair typically cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Costs vary by damage type: (1) Crack repairs: $250–$800 (epoxy/polyurethane), (2) Leak repairs: $2,000–$12,000 (includes drainage systems), (3) Settling/sinking: $4,500–$25,000 (piering/mudjacking), (4) Bowing walls: $5,000–$15,000 (carbon fiber/steel anchors). Full foundation replacement can exceed $100,000. National averages range from $2,500–$8,000, with structural engineer inspections costing $500–$900 :cite[2]:cite[6]:cite[8]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I do minor foundation repairs myself?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DIY is limited to: (1) Sealing hairline cracks (<1/8\") with epoxy, (2) Improving drainage (extending downspouts, regrading soil), and (3) Trimming tree roots near the foundation. Leave structural cracks, sinking, or bowing to professionals—attempting complex repairs like pier installation risks worsening damage :cite[3]:cite[7]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I ask a foundation repair contractor before hiring?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Critical questions: (1) \"Are you locally headquartered?\" (avoids storm chasers), (2) \"Can you provide references from my neighborhood?\" (soil conditions vary), (3) \"What warranty do you offer?\" (lifetime coverage for piers is ideal), (4) \"Will you test plumbing after lifting the home?\" (prevents post-repair leaks), and (5) \"Do you handle permits?\" (required for structural work in most cities) :cite[7]:cite[9]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are foundation repair permits required in my area?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Permit requirements vary: (1) Minor crack repairs rarely need permits, (2) Structural work (pier installation, wall bracing) typically requires permits ($50–$1,000), especially in cities like Houston/DFW. Rural areas may have no requirements. Always check with your local building department—contractors like Groundworks often handle this process :cite[4]:cite[7]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long do foundation repairs last?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Repair longevity depends on the method: (1) Epoxy fills: 5+ years (temporary), (2) Polyurethane foam lifts: Permanent, (3) Steel piers: Lifetime (with warranties), (4) Carbon fiber straps: 10+ years. Proper drainage and soil maintenance can extend results. Avoid \"band-aid\" fixes for structural issues—permanent solutions cost more upfront but prevent recurring problems :cite[5]:cite[10]."
+      }
+    }
+  ]
+}

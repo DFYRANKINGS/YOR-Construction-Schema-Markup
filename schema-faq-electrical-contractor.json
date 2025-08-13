@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Are you licensed and insured to perform electrical work in my state?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Reputable electrical contractors must have: (1) **State electrical license** (e.g., C-10 in California, EC in Texas), (2) **Master Electrician certification** for the lead technician, (3) **General liability insurance** ($1M+ coverage), and (4) **Workers' compensation**. Verify licenses through your state's licensing board (like CSLB in CA) - unlicensed work voids most home insurance policies for electrical-related claims."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will you pull the necessary permits and ensure work complies with current codes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Professional electricians: (1) **Pull all required permits** ($75-$500 depending on project scope), (2) **Adhere to current NEC codes** (2023 standards with local amendments), and (3) **Schedule inspections** (rough-in and final). They provide documentation of compliance - ask for their methodology on code updates (e.g., AFCIs in all living spaces per NEC 2020). DIY electrical work often fails inspection due to improper grounding or box fill calculations."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What tools, equipment, and team do you use for the project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Top contractors utilize: (1) **Diagnostic tools** - Thermal imaging cameras, circuit analyzers, and megohmmeters, (2) **Safety gear** - Voltage-rated gloves and arc flash protection, (3) **Installation equipment** - Hydraulic benders for conduit, laser alignment tools, and (4) **Certified teams** - Journeyman electricians (8,000+ training hours) supervised by Master Electricians. They should disclose crew size - typically 2-3 electricians for whole-house rewires."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you ensure the qualifications and training of your electricians?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Verification includes: (1) **State certification cards** (verify through DOL), (2) **Ongoing training** - Annual NEC update courses and manufacturer certifications (e.g., Generac for generators), (3) **OSHA 30 certification** for safety, and (4) **Apprenticeship ratios** - Max 1 apprentice per journeyman. Ask for individual credentials - 34% of electrical failures stem from improperly trained workers according to ESFI."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are your policies regarding project timelines, payment terms, and workplace safety?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Professional standards: (1) **Timelines** - Written schedule with 10-15% contingency time, (2) **Payments** - 30% deposit, progress payments tied to inspections, final 10% after approval, (3) **Safety** - Lockout/tagout procedures, daily hazard briefings, and MSDS access. Beware contractors requesting >50% upfront - the industry standard is 30% max deposit for electrical work."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you provide references from previous clients?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Quality contractors supply: (1) **3-5 recent references** (call to ask about cleanup and communication), (2) **Inspection records** - Proof of passed final inspections, (3) **Project photos** - Showing proper wiring methods (neat 90° bends, correct box fill), and (4) **Online reviews** - Check BBB for complaint patterns. For large projects (>$10K), request to visit a completed job site."
+      }
+    }
+  ]
+}

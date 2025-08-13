@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What chemicals should and should not be added through the pool skimmer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Safe for skimmer addition**: Chlorine tablets (in a floater or slow-dissolving forms) and algaecides (diluted). **Avoid adding through skimmer**: Shock treatments (can damage equipment due to high concentration), muriatic acid (corrosive to pipes), and calcium chloride (can clog filters). Always pre-dissolve granular chemicals in a bucket of water before adding to the skimmer to prevent uneven distribution or damage :cite[1]:cite[6]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How to accurately test and maintain pool water chemistry yourself?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Follow these steps: (1) **Test 2–3x weekly** using strips, liquid kits, or digital testers (strips are beginner-friendly). (2) **Key levels to monitor**: Free chlorine (1–3 ppm), pH (7.4–7.6), alkalinity (80–120 ppm), calcium hardness (200–400 ppm), and cyanuric acid (30–50 ppm for chlorine pools). (3) **Adjust in this order**: Alkalinity → pH → Calcium → Sanitizers. (4) **Shock weekly** to eliminate chloramines. For accuracy, test water 18” below the surface after circulating for 1 hour :cite[1]:cite[5]:cite[10]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the long-term effects of different pool maintenance chemicals?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Chlorine**: Chronic exposure may cause lung irritation or asthma; byproducts (trihalomethanes) are potential carcinogens :cite[6]:cite[9]. **Bromine**: Less irritating but can form toxic bromate under UV light :cite[6]. **Cyanuric acid (CYA)**: Over 100 ppm reduces chlorine efficacy, leading to algae resistance :cite[1]. **Muriatic acid**: Repeated exposure risks respiratory damage and surface etching :cite[6]. **Metals (copper/iron)**: High levels stain pools and irritate skin :cite[4]. Always wear PPE and store chemicals in ventilated areas to minimize risks :cite[2]:cite[6]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the best practices for pool plumbing to avoid damage and discoloration?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Plumbing tips**: (1) Use **sweep 45° elbows** instead of 90° bends to reduce head pressure. (2) **Avoid P-traps** in suction lines to prevent air locks. (3) **Pressure-test pipes** with water (not air) before backfilling. (4) Keep pipes **below frost line** and support trenches to prevent cracks. **Discoloration prevention**: (1) Balance calcium hardness (200–400 ppm) to avoid scaling. (2) Use sequestering agents for metal stains (iron/copper). (3) Maintain pH 7.4–7.6 to prevent corrosion or etching :cite[3]:cite[7]:cite[10]."
+      }
+    }
+  ]
+}

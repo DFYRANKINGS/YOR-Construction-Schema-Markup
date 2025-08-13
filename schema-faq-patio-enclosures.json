@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the benefits of patio enclosures versus covers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Patio enclosures provide full protection from pests, wind, and rain, making them ideal for year-round use as extended living spaces (e.g., sunrooms or screened rooms). They add more functional square footage to your home but cost 2-3x more than covers. Patio covers offer open-air design with shade/rain protection, better airflow, and lower installation costs. Covers excel for outdoor kitchens or poolside areas where ventilation matters. Enclosures suit homeowners prioritizing climate control and bug-free spaces."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do different enclosure materials perform in various environmental conditions?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Screen: Best for humid climates (e.g., Florida) but tears easily. Glass: Ideal for four-season rooms but traps heat in sunny regions. Aluminum: Rust-resistant for coastal areas but noisy in rain. Vinyl: Resists mold in damp climates but lacks aesthetic appeal. Polycarbonate: Lightweight for hail-prone areas but prone to scratching. In Texas heat, tempered glass with UV coatings and aluminum framing balances durability and heat reflection."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I consider about ventilation and natural light with patio enclosures?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For ventilation, prioritize cross-ventilation with operable windows on opposite walls or louvers. Skylights boost natural light but may increase heat. Low-E glass maximizes light while reducing UV damage. In hot climates, avoid west-facing glass walls to minimize afternoon heat gain. Screened enclosures offer the best airflow but less weather protection. Glass rooms require mechanical ventilation (ceiling fans, HVAC) to prevent heat buildup."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What permits or regulations might affect patio enclosure installations?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most cities require permits for enclosures with walls, roofs, or electrical work. Key triggers: attachment to the home, square footage (often over 100–120 sq ft), and structural changes. Coastal zones or historic districts have stricter rules. Screen rooms may be exempt if freestanding. Always check local setback requirements and HOA guidelines. In San Diego, for example, enclosures under 300 sq ft may skip permits unless in environmentally sensitive areas."
+      }
+    }
+  ]
+}

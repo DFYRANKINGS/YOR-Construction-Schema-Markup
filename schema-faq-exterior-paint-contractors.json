@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How often does exterior paint need to be refreshed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Exterior paint lifespan varies by material and climate: (1) **Wood siding**: 3-7 years (2) **Stucco**: 5-10 years (3) **Brick**: 15-20 years (masonry paint) (4) **Metal/vinyl**: 7-15 years. High-quality 100% acrylic paints last 35-50% longer than budget options. Signs you need repainting include peeling (>10% of surface), fading, or chalky residue that rubs off easily."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What types of paint and coatings are best for my local climate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Climate-specific recommendations: (1) **Hot/sunny**: Elastomeric coatings with UV inhibitors (e.g., Sherwin-Williams Loxon) (2) **Humid**: Mold/mildew-resistant acrylics (e.g., Benjamin Moore Aura) (3) **Cold/freezing**: Epoxy-fortified paints for freeze-thaw resistance (4) **Coastal**: Alkyd-modified waterborne paints resist salt corrosion. Top contractors perform substrate tests before recommending products."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are exterior paint contractors licensed and insured?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Reputable contractors should have: (1) State painting contractor license (verify through your state licensing board) (2) General liability insurance ($1M+ coverage) (3) Workers' compensation (required in most states). For lead paint work (pre-1978 homes), EPA Lead-Safe Certification is mandatory. Always request certificates and verify directly with insurers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What preparation work is included in their services?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Professional prep includes: (1) Pressure washing (under 1500 PSI to avoid damage) (2) Scraping/sanding loose paint (3) Caulking gaps (>1/4\") (4) Priming bare spots (oil-based for wood, acrylic for stucco) (5) Applying wood hardener to rotten areas. Beware contractors who skip these steps - proper prep accounts for 75% of paint job longevity."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do they manage cleanup and protect landscaping?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Top contractors: (1) Lay 6-mil plastic sheeting over plants/hardscapes (2) Use standoffs to keep ladders off shrubs (3) Contain paint chips (especially important for lead paint) (4) Perform daily debris removal (5) Final wash-down of walkways. Ask about their containment systems - pros use zipwall barriers for overspray protection."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What warranties or guarantees come with the painting job?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Standard coverage includes: (1) **Materials**: Manufacturer's warranty (typically 15-30 years for premium paints) (2) **Workmanship**: 2-5 years against peeling/flaking (3) **Color retention**: 5-10 years for high-end products. Get warranties in writing, noting exclusions (e.g., hail damage, improper cleaning). Some contractors offer free touch-up services within the first year."
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the first steps in planning a bathroom remodel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Start with: (1) **Assessing needs**—prioritize storage, accessibility, or luxury features; (2) **Measuring the space**—note plumbing/electrical locations; (3) **Researching permits**—required for layout changes or electrical updates; (4) **Hiring pros**—consult designers/contractors early to avoid costly revisions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I set a realistic budget for my bathroom remodel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Average costs range from **$6,000–$25,000**. Allocate: 50% for labor, 20% fixtures, 15% tiles, 15% contingencies. Mid-range remodels (~$15,000) often include tile showers and mid-grade vanities. Luxury projects ($$$) prioritize heated floors or smart mirrors."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I choose between different types of fixtures, tiles, and layouts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Fixtures**: Opt for water-efficient EPA WaterSense models. **Tiles**: Porcelain resists moisture; natural stone needs sealing. **Layouts**: 30”x60” is standard for single-sink bathrooms; wet rooms save space but require slope flooring."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I know about ventilation, lighting, and moisture control?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Ventilation**: Install a 50–80 CFM exhaust fan (duct outside, not attic). **Lighting**: Layer ambient (ceiling), task (mirror), and accent lights. **Moisture**: Use mold-resistant drywall (green board) and waterproof membranes behind tiles."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How to design a bathroom that’s visually alluring but practical to maintain?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Focus on: (1) **Large-format tiles**—fewer grout lines; (2) **Floating vanities**—easier floor cleaning; (3) **Quartz countertops**—stain-resistant; (4) **Semi-frameless glass showers**—reduce hard water buildup. Neutral palettes (grays, whites) hide wear better than bold colors."
+      }
+    }
+  ]
+}

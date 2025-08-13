@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What qualifications should I look for in an air conditioning contractor?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Essential qualifications include: (1) **State licensing** (e.g., C-20 license in California for HVAC work over $500 :cite[1]:cite[6]), (2) **EPA 608 Certification** for handling refrigerants (Type II for residential systems) :cite[6], (3) **NATE certification** (indicates advanced technical training) :cite[6], (4) **General liability insurance** ($1M+ coverage) :cite[1], and (5) **Local experience** (ask for 5+ years in your area). Avoid contractors who can't provide license numbers or proof of insurance :cite[5]:cite[8]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do contractors assess the proper size and type of AC system for my home?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Professional contractors use: (1) **Manual J calculations** (factors in square footage, insulation, windows, and local climate :cite[2]:cite[7]), (2) **Ductwork evaluation** (checks for leaks/sizing issues), and (3) **Load calculations** (accounts for heat-generating appliances and occupancy). For example, a 2,000 sq ft home typically needs 3-5 tons (36,000-60,000 BTU) but varies by region (e.g., Southern homes need 20% more capacity than Northern ones) :cite[2]:cite[7]. Oversized units cause humidity issues, while undersized units overwork :cite[7]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What maintenance services do they provide for air conditioning units?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Standard maintenance includes: (1) **Seasonal tune-ups** (check refrigerant, clean coils, calibrate thermostats) :cite[8], (2) **Filter replacement** (every 1-3 months) :cite[9], (3) **Drain line flushing** (prevents clogs with vinegar/bleach) :cite[9], (4) **Electrical inspection** (tests capacitors/contactors) :cite[4], and (5) **Duct cleaning** (every 3-5 years). Premium plans may offer priority scheduling and discounts :cite[8]. Neglecting maintenance reduces efficiency by 5% annually :cite[4]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does installation or repair typically take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Project durations vary: (1) **Repairs**: 30 mins (clogged filter) to 8 hours (compressor replacement) :cite[3], (2) **Installations**: 1-2 days for split systems, 3-5 days for ductwork replacements :cite[8], (3) **Emergency fixes**: Most completed same-day if parts are available :cite[5]. Delays occur during peak summer months due to high demand :cite[3]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are common issues with AC systems and how are they resolved?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Frequent problems and solutions: (1) **Refrigerant leaks** (locate/seal leak, recharge system - EPA-certified only :cite[4]:cite[9]), (2) **Frozen coils** (clean filters, check airflow :cite[9]), (3) **Electrical failures** (replace capacitors/contactors :cite[4]), (4) **Drainage clogs** (flush with bleach :cite[9]), and (5) **Sensor malfunctions** (reposition thermostat sensor :cite[9]). 80% of no-cool calls stem from dirty filters or low refrigerant :cite[4]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are emergency repair services available?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Reputable contractors offer: (1) **24/7 emergency service** (extra fees may apply :cite[5]:cite[10]), (2) **Same-day diagnostics** (via stocked service vehicles :cite[5]), and (3) **Loaner units** for multi-day repairs :cite[8]. Prioritize companies with dedicated emergency lines (not just voicemail) :cite[10]."
+      }
+    }
+  ]
+}

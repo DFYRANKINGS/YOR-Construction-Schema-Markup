@@ -1,0 +1,22 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What should I consider when repurposing or replacing a room?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Key factors include: (1) **Functionality**—match the room’s purpose to your lifestyle (e.g., home office vs. guest room); (2) **Structural limits**—check load-bearing walls, electrical, and plumbing; (3) **Budget**—repurposing costs 10–50% less than full demolition; (4) **Resale value**—popular upgrades include flex rooms or ADUs (Accessory Dwelling Units)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I convert a bedroom into a bathroom without major renovations?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Only if plumbing lines are nearby. Relocating water supply/drainage requires extensive work (cost: $5,000–$15,000). For simpler solutions, consider half-baths with wall-mounted sinks or wet-room designs."
+      }
+    }
+  ]
+}

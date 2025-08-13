@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What experience do you have installing patio covers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Professional patio cover contractors should demonstrate: (1) 5+ years specializing in cover installations (not just general construction), (2) Experience with various attachment methods (to house fascia vs. freestanding), (3) 50+ completed projects in your local area (climate-specific expertise matters), and (4) Certifications from manufacturers like Alumawood or Redwood Systems. Ask about their largest/most complex project to gauge capability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you share references or reviews from prior clients?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Reputable contractors should provide: (1) 3-5 recent client references (call to ask about post-installation support), (2) Verified reviews on Google My Business or Houzz (minimum 4.5-star average), (3) Before/after photos showing at least 10 similar projects, and (4) Addresses of nearby installations you can visit. Be wary of contractors who can't share local references - this often indicates fly-by-night operations."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What materials do you recommend for patio covers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Top material options with key considerations: (1) **Aluminum** ($25-$45/sq ft): Powder-coated for rust resistance, best for coastal areas; (2) **Vinyl** ($20-$35/sq ft): Low-maintenance but limited color options; (3) **Wood** ($30-$60/sq ft): Requires annual sealing but offers natural aesthetics; (4) **Polycarbonate** ($15-$30/sq ft): UV-resistant roofing with 90% light transmission. The best contractors assess your home's architecture, local weather patterns, and maintenance preferences before recommending materials."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you handle project timelines and potential delays?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Professional patio cover companies should: (1) Provide written timelines with 2-3 day buffer periods, (2) Maintain relationships with multiple material suppliers to prevent shortages, (3) Offer weather clauses in contracts (rain delays, extreme heat), and (4) Give weekly progress updates via your preferred method (email, app, or in-person). The most reliable track record completion of 90%+ projects on time - ask for this statistic."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What warranties or guarantees do you provide?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Expect three warranty types: (1) **Materials**: 10-50 years from manufacturers (e.g., Alumawood's 25-year finish warranty), (2) **Workmanship**: 2-10 years covering structural integrity and installation defects, and (3) **Roofing**: 5-15 years for waterproofing. Premium contractors often offer 'no-leak' guarantees with free annual inspections. Always get warranties in writing, noting transferability to future homeowners."
+      }
+    }
+  ]
+}

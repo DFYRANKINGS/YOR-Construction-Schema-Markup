@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What experience does the commercial contractor have in projects similar to mine?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Reputable commercial contractors should demonstrate: (1) 5+ completed projects in your specific sector (retail, healthcare, industrial etc.), (2) Familiarity with your project size (e.g., $2M+ budgets if applicable), (3) Experience with local zoning/compliance requirements, and (4) Specialized trade partnerships (MEP, structural etc.). Ask for case studies showing project challenges/solutions - quality firms track this data across all projects."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long has the company been in business?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Minimum thresholds vary by project complexity: (1) Small projects (<$1M): 5+ years acceptable, (2) Mid-size ($1-10M): 10+ years preferred, (3) Large-scale (>$10M): 15+ years ideal. Verify via: (a) Business license records, (b) Bonding history (look for continuous coverage), and (c) Equipment ownership (long-term contractors invest in specialized machinery). Newer firms may qualify if leadership has 20+ years combined experience."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What permits and approvals are required for commercial construction projects?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Typical requirements include: (1) Building permits (structural, electrical, mechanical), (2) Zoning approvals (varies by municipality), (3) ADA compliance documentation, (4) Fire department review, (5) Environmental assessments (for sites >1 acre), and (6) Health department permits (for food service/medical). Lead times range 2-12 months - experienced contractors maintain relationships with officials to expedite."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do they handle project delays or unexpected issues?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Top firms implement: (1) Contingency clauses (5-15% of schedule), (2) Daily OAC (Owner-Architect-Contractor) meetings for rapid issue resolution, (3) Subcontractor performance bonds, (4) Real-time schedule updating (Primavera/MS Project), and (5) Weather mitigation plans. Ask for their historical on-time completion percentage - commercial specialists should exceed 85%."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can they provide references or a portfolio of completed commercial construction projects?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Demand: (1) 5+ client references from similar project types, (2) AIA contract completion forms (G704/G706), (3) Drone footage showing construction sequencing, (4) Subcontractor evaluations, and (5) Punch list closeout timelines. Top contractors maintain digital portfolios with: (a) Pre/post construction photos, (b) Change order percentages, and (c) LEED/sustainability certifications if applicable."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What safety and quality assurance measures are in place?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Industry-leading programs include: (1) OSHA 30-certified site supervisors, (2) Daily safety huddles with documentation, (3) Third-party quality inspections (QA/QC), (4) Material testing logs (concrete slump tests etc.), (5) BIM clash detection, and (6) Submittal review processes. Request their EMR (Experience Modification Rate) - scores <1.0 indicate better-than-average safety records."
+      }
+    }
+  ]
+}

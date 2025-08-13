@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the key components inspected during a deck inspection (e.g., framing, footings, fasteners)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Professional deck inspections evaluate 7 critical components: (1) **Footings** - Depth below frost line (12-36\" depending on region) and proper concrete encasement, (2) **Ledger board** - 1/2\" galvanized lag screws (not nails) with flashing against house, (3) **Joists** - Maximum 16\" on-center spacing for composite decking, (4) **Fasteners** - Corrosion-resistant (hot-dipped galvanized or stainless steel), (5) **Railings** - 4\" maximum baluster spacing and 200-lb load capacity, (6) **Stairs** - Uniform riser height (±3/8\" variation), and (7) **Surface** - No splintering or excessive wear (>1/4\" wood deterioration)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How often should a deck be inspected for safety?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Inspection frequency guidelines: (1) **Annual** - Basic visual checks by homeowner after winter thaw, (2) **Biennial** - Professional inspection for decks 5-10 years old, (3) **Annual** - For decks over 10 years old or in harsh climates, (4) **Pre-season** - For vacation homes before heavy summer use. The North American Deck and Railing Association (NADRA) recommends certified inspections every 3-5 years."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What common issues do inspectors look for (rot, loose connections, rust, structural weaknesses)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Inspectors prioritize 5 critical failure points: (1) **Ledger detachment** - Responsible for 90% of deck collapses, (2) **Post/beam rot** - Especially at ground contact (use screwdriver test for soft wood), (3) **Corroded fasteners** - Red rust stains indicate replacement needed, (4) **Over-notched beams** - Notches >1/6 beam depth compromise strength, and (5) **Missing hardware** - 40% of decks lack required joist hangers. Infrared cameras often reveal hidden moisture damage."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What steps should be taken if a deck fails inspection?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Remediation protocol: (1) **Immediate closure** - If structural issues are found (>1\" ledger pull-away or >50% post rot), (2) **Permitted repairs** - Most jurisdictions require permits for structural corrections, (3) **Material upgrades** - Replace pressure-treated wood with rot-resistant alternatives (e.g., cedar, composite), (4) **Professional reinforcement** - Adding tension ties (like Simpson DTT2Z) to compromised ledgers, and (5) **Re-inspection** - Required before reopening the deck in most municipalities."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are inspections required before and after deck construction or repairs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mandatory inspection phases: (1) **Pre-construction** - For custom designs exceeding 30\" height (requires stamped plans), (2) **Footing inspection** - Before concrete pour (checks depth/diameter), (3) **Framing inspection** - Prior to decking installation (verifies joist spacing/hangers), and (4) **Final inspection** - After completion (tests railings/stairs). Most areas waive inspections for ground-level decks under 30\" and under 200 sq ft."
+      }
+    }
+  ]
+}

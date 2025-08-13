@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the best application method for stucco?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The best method depends on the project type. For **traditional stucco**, use a three-coat system: (1) Scratch coat (1/2\" thick) over metal lath for adhesion, (2) Brown coat (3/8\" thick) for leveling, and (3) Finish coat (1/8\" thick) for texture/color. For **synthetic stucco (EIFS)**, apply a fluid barrier, insulation board, fiberglass mesh, and acrylic finish. Hot climates require fogging between coats to prevent rapid drying, while cold climates need heated enclosures for proper curing :cite[1]:cite[4]:cite[7]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How to maintain and repair stucco exterior walls?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Maintenance**: Clean 2–3x yearly with a garden hose (max 2,800 psi pressure washer). Inspect annually for cracks/stains. Reseal with elastomeric paint every 5–10 years. **Repairs**: Fill hairline cracks with acrylic caulk, patch holes with stucco mix, and replace delaminated sections. For moisture damage, remove affected stucco, treat mold, and reapply with a moisture barrier. Always repair before repainting :cite[2]:cite[5]:cite[6]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the differences between traditional and synthetic stucco?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Traditional stucco**: Cement-based (Portland cement, sand, lime), heavier (10 lbs/sq ft), requires control joints, and lasts 50+ years. **Synthetic stucco (EIFS)**: Lightweight (2 lbs/sq ft), includes insulation (R-value 3–5 per inch), flexible (less cracking), and has integrated moisture barriers. EIFS is pricier initially but offers better energy efficiency and lower maintenance :cite[7]:cite[8]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does stucco perform in different weather conditions?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Hot/dry climates**: Requires fogging during application to prevent cracking; light colors reflect heat. **Cold climates**: Needs air-entrained mixes to resist freeze-thaw cycles; apply only above 40°F (4.4°C). **Humid regions**: Prone to mold/moss; use breathable lime stucco or acrylic finishes. Florida’s code mandates 7/8\" thickness for moisture resistance. Avoid applying in rain or extreme wind :cite[4]:cite[8]:cite[9]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What common problems occur with stucco and how to prevent them?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Common issues**: Cracks (from settling/temperature shifts), moisture intrusion (due to poor sealing), efflorescence (salt deposits), and mold. **Prevention**: (1) Install control joints every 144 sq ft, (2) Ensure proper drainage (gutters 5+ ft from walls), (3) Use elastomeric sealants at penetrations (windows/doors), (4) Trim vegetation 2+ ft away, and (5) Inspect annually. Remediate severe damage by replacing compromised sections :cite[3]:cite[5]:cite[8]."
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I evaluate the experience and track record of a foundation contractor?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Key evaluation criteria: (1) **Years in business** - Minimum 5+ years specializing in foundation work (verify via state licensing boards) :cite[4]:cite[5], (2) **Project portfolio** - Request 10+ local projects with before/after photos and references :cite[4], (3) **Certifications** - Look for FEMA 154 training, ASCE 41 compliance, or manufacturer certifications (e.g., Perma Pier for pier systems) :cite[3]:cite[7], (4) **BBB ratings** - Check complaint history and resolution rates :cite[4], (5) **Insurance** - Verify $1M+ general liability and workers' compensation coverage :cite[5]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the typical costs and timelines for foundation repairs or installations?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Costs**: (1) Minor cracks: $250-$1,000 (epoxy injection) :cite[6], (2) Pier installation: $1,000-$3,000 per pier :cite[1], (3) Full foundation replacement: $20,000-$100,000 :cite[6]. **Timelines**: (1) Permitting: 1-8 weeks :cite[2], (2) Repairs: 1-3 days (simple) to 3+ months (major underpinning) :cite[1]:cite[2], (3) New installations: 4-8 weeks (including curing time) :cite[2]. Costs vary by soil type - clay soils add 20-30% to budgets due to extra stabilization needs :cite[1]:cite[6]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What permits are required for foundation work in my area?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Permit requirements vary: (1) **Minor repairs** (crack sealing): Often exempt :cite[3], (2) **Structural work** (pier installation/underpinning): Always required :cite[3], (3) **State specifics** - e.g., Oklahoma requires stamped engineering plans; Arizona mandates pre-approval for soil disturbances :cite[3]. Reputable contractors handle permitting (typically $75-$1,500) and know local exceptions - e.g., Riverside County requires 3 separate permits for manufactured home foundations :cite[2]:cite[3]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do foundation contractors handle coordination with plumbing and electrical systems affected by foundation work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Professional protocols include: (1) **Pre-work scans** - Using GPR to map underground utilities :cite[8], (2) **MEP coordination** - BIM modeling for major projects to prevent clashes with structural elements :cite[8], (3) **Temporary supports** - Shoring up pipes/wires during lifting (adds $500-$2,000 to projects) :cite[1], (4) **Post-repair testing** - Pressure checks for plumbing and load tests for electrical conduits :cite[4]. Always confirm these steps are in the contract - 30% of foundation repairs uncover unexpected utility issues :cite[6]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What warranties or guarantees do foundation contractors offer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Standard coverage includes: (1) **Materials** - 10-50 years for piers/beams :cite[7], (2) **Workmanship** - 2-10 years against settling/defects :cite[4], (3) **Transferable** - Lifetime warranties for steel piers (valid for subsequent homeowners) :cite[1]. Beware of vague 'lifetime' promises - legitimate warranties specify maintenance requirements (e.g., annual drainage inspections) and exclude 'acts of God' like earthquakes :cite[4]:cite[7]."
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does a new roof installation cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The average roof replacement costs $5,000–$15,000 for asphalt shingles (1,500 sq ft home). Premium materials range higher: metal roofs $12,000–$25,000, slate $20,000–$50,000. Costs vary by roof pitch, accessibility, and local labor rates. Get 3–5 quotes as prices fluctuate by 20–30% regionally."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does a roof typically last?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Lifespans by material: asphalt shingles 15–30 years, architectural shingles 30–50 years, metal roofs 40–70 years, clay/concrete tiles 50–100 years, slate 75–200 years. Proper maintenance can extend lifespan by 20–30%. Southern climates with intense sun/hurricanes typically see shorter lifespans than northern regions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I identify the signs that my roof needs replacement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Key warning signs: curled/buckling shingles, bald spots with missing granules, daylight visible through roof boards, multiple leaks, sagging areas, or moss growth (indicates moisture retention). If your roof is over 20 years old with these issues, replacement is likely more cost-effective than repairs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What types of roofing materials are best for my climate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hot/sunny: Clay tiles or light-colored metal reflect heat. Cold/snowy: Slate or standing-seam metal shed snow. Windy/coastal: Impact-resistant asphalt or metal with high wind ratings. Humid/rainy: Metal or synthetic slate resist mold. Hail-prone: Class 4 impact-rated materials. Always check local building codes for required wind/fire ratings."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I install a metal roof over existing shingles?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, but only if: (1) Local codes permit it (some prohibit multiple layers), (2) Existing roof has just 1 layer of shingles, (3) Decking is structurally sound, and (4) You use proper underlayment. While this saves $1,000–$3,000 in tear-off costs, it may void warranties and reduce the metal roof's lifespan by 10–15%."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does homeowners insurance cover roof leaks or replacements?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Coverage depends on the cause: sudden damage (hail, wind) is typically covered, while wear/tear or lack of maintenance is not. Most policies cover full replacement cost if damage exceeds 50% of the roof. Document damage immediately with photos/videos and get a professional inspection before filing claims."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I find a trustworthy roofing contractor?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Follow this vetting process: (1) Verify state licensing and insurance, (2) Check BBB ratings and local reviews, (3) Ask for 3+ local references, (4) Ensure they provide detailed written estimates, (5) Confirm they'll handle permits, (6) Avoid storm chasers offering 'free' inspections. Top contractors belong to NRCA or local trade associations."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What maintenance steps can extend the life of my roof?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Annual maintenance checklist: (1) Clean gutters to prevent water backup, (2) Trim overhanging branches, (3) Inspect for missing/damaged shingles after storms, (4) Check flashing around chimneys/vents, (5) Remove debris/moss, (6) Ensure proper attic ventilation. Professional inspections every 3–5 years can catch minor issues before they become major problems."
+      }
+    }
+  ]
+}

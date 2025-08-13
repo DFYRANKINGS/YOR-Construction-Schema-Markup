@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Why did my garage door spring break? Can I repair it myself?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Garage door springs break due to wear and tear from repeated use, often after 10,000–15,000 cycles (about 7–10 years). Factors like rust, lack of lubrication, or extreme temperature changes can accelerate this. DIY repair is strongly discouraged—springs are under high tension and can cause serious injury if mishandled. Always hire a professional for replacement :cite[1]:cite[7]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What to do if my garage door tracks need to be aligned?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "First, inspect tracks for debris and clean them. Loosen track bolts slightly, gently tap misaligned sections with a rubber mallet, then retighten. Minor misalignments can be fixed DIY, but severe bends or damage require professional help to avoid further issues like roller damage or door derailment :cite[4]:cite[7]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "If only one section is damaged, do I need to replace the entire garage door?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, sectional garage doors allow individual panel replacements (cost: $150–$800 per panel). However, single-panel styles (tilt-up, side-hinged) require full-door replacement. For sectional doors, matching the panel’s material/color is key for aesthetics :cite[2]:cite[8]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How often should I have my garage door serviced?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Annual professional maintenance is recommended for doors used daily. Bi-annual checks suffice for lightly used doors. Service should include lubrication, spring/cable inspection, sensor testing, and hardware tightening to prevent costly repairs :cite[5]:cite[9]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the signs that I need emergency garage door repair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Emergency signs include: a door stuck open/closed (security risk), broken springs/cables (risk of sudden collapse), off-track rollers, or a malfunctioning opener trapping vehicles inside. These require immediate professional attention due to safety hazards :cite[3]:cite[6]:cite[8]."
+      }
+    }
+  ]
+}

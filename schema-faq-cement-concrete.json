@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the different types of concrete mixes and their uses?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common concrete mixes include: (1) **Normal Strength (3000-4000 psi)**: Foundations and slabs (2) **High-Strength (5000+ psi)**: High-rise buildings (3) **Stamped**: Decorative patios (4) **Rapid-Set**: Repairs (sets in 1 hour) (5) **Fiber-Reinforced**: Crack-resistant driveways (6) **Lightweight**: Roof decks. Specialty mixes like pervious concrete allow water drainage for sustainable landscaping."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does concrete take to cure properly?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Concrete reaches: (1) Walkable strength in 24-48 hours (2) 70% strength in 7 days (3) Full strength (3000+ psi) in 28 days. Critical first 48 hours require moist curing (spraying/wet burlap) to prevent cracks. Temperature affects timing - cold weather (below 50°F) can double curing time, while hot weather requires more frequent watering."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I fix cracks in concrete slabs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Repair methods by crack size: (1) **Hairline (<1/8")**: Epoxy injection or silicone caulk (2) **Medium (1/8"-1/2")**: Concrete patching compound (3) **Large (>1/2")**: Remove and repour section. For structural cracks, consult an engineer. Prevent future cracks by installing control joints every 10 feet and using fiber mesh reinforcement."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What precautions should be taken during concrete pouring?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Essential precautions: (1) Check weather (avoid pouring below 40°F or in rain) (2) Prepare subgrade with compacted gravel (3) Use proper reinforcement (rebar or wire mesh) (4) Install formwork with 2x4 braces every 3 feet (5) Have enough workers for continuous pouring (cold joints weaken structure) (6) Keep curing blankets ready for temperature swings."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How to protect concrete surfaces from weather damage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Protection methods: (1) **Sealing**: Apply silane/siloxane sealer every 2-3 years (2) **Winter care**: Use calcium chloride instead of rock salt (3) **Sun protection**: UV-resistant coatings in hot climates (4) **Drainage**: Slope surfaces 1/4" per foot away from structures (5) **Expansion joints**: Allow 1/4" space every 20 feet for thermal movement. For freeze-thaw areas, specify air-entrained concrete (4-6% air content)."
+      }
+    }
+  ]
+}

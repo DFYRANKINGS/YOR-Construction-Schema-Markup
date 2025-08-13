@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I evaluate if my roof is suitable for solar panels?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Key evaluation criteria include: (1) **Structural integrity** - Roof must support 3-4 lbs/sq ft additional weight (professional inspection recommended) :cite[1]; (2) **Orientation** - South-facing roofs in northern hemisphere yield 15-25% more energy :cite[1]; (3) **Shading** - Use tools like PVsyst to analyze obstructions (trees/buildings) :cite[1]; (4) **Material/age** - Asphalt shingles (most compatible) should have 10+ years remaining lifespan; tile/metal require specialized mounts :cite[9]; (5) **Space** - Typical home needs 335-405 sq ft for 20-25 panels :cite[9]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does the permitting and installation process take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Timelines vary: (1) **Permitting** - 1-8 weeks (traditional) vs. instant approval with SolarAPP+ :cite[10]; (2) **Installation** - 1-3 days for residential systems; (3) **Interconnection** - 2-6 weeks for utility approval. Using automated tools like SolarTRACE can reduce total timeline from 20+ weeks to as little as 4 weeks :cite[10]. Complex roofs or areas with backlogged inspectors may experience delays."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the tax credits or incentives available for solar installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Current U.S. incentives: (1) **Federal Tax Credit** - 30% of system cost (2022-2032), phasing to 26% (2033) and 22% (2034) :cite[2]; (2) **State/local programs** - Vary by location (e.g., NJ solar tax credits) :cite[8]; (3) **Net metering** - Utility payments for excess energy. Note: Subsidies/rebates may reduce eligible credit amounts :cite[2]. Solar roofing tiles qualify, but structural components don't :cite[2]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I choose between solar panel brands and technology?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Selection factors: (1) **Efficiency** - Monocrystalline (19-23%) outperforms polycrystalline (15-18%) :cite[3]; (2) **Climate suitability** - REC panels excel in heat (low temp coefficient) vs. VSUN for cold climates :cite[6]; (3) **Warranties** - Top brands offer 25-40 year coverage :cite[6]; (4) **Cost** - Premium panels (Maxeon at $2.84/W) vs. budget options (Canadian Solar at $2.56/W) :cite[6]. EnergySage's ranking system compares 5 key metrics :cite[6]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What maintenance do solar panels require?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Minimal maintenance needed: (1) **Cleaning** - 2-4 times yearly with soft brush/distilled water (morning hours) :cite[4]:cite[7]; (2) **Inspections** - Check for cracks/animal nests annually :cite[7]; (3) **Monitoring** - Use apps to track 15%+ production drops :cite[7]. Rain cleans tilted panels naturally. Avoid abrasive tools/hot water (risk glass cracking) :cite[4]. Most damage is covered by warranties :cite[7]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can solar panels be installed on old or damaged roofs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Condition requirements: (1) **Age** - Not recommended if roof needs replacement within 5-7 years (panels last 25+ years) :cite[8]; (2) **Damage** - Must repair leaks/rot first :cite[1]; (3) **Material life** - Align with solar lifespan: metal (40+ years) = yes, asphalt (15-20 years) = maybe :cite[8]. Solar SME reports 42% of installations require roof work :cite[9]. Consider combined roof+solar financing to offset costs :cite[8]."
+      }
+    }
+  ]
+}

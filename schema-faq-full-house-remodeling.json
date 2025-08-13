@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What does a full house remodel typically include?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A full house remodel typically involves: (1) **Structural changes** (removing load-bearing walls, adding rooms), (2) **System upgrades** (electrical, plumbing, HVAC), (3) **Cosmetic updates** (flooring, paint, cabinetry), and (4) **Exterior work** (roofing, siding, windows). High-end projects may include smart home integration, luxury finishes, or additions like ADUs. Gut remodels go 'down to the studs,' requiring all-new interiors, while partial remodels focus on key areas like kitchens/bathrooms :cite[1]:cite[9]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does a comprehensive home renovation cost on average?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Average costs in 2025: (1) **Cosmetic remodels**: $50,000–$90,000, (2) **Full gut renovations**: $150,000–$300,000 ($60–$150/sq ft), (3) **Teardown/rebuilds**: $250–$400/sq ft. Kitchen/bathroom overhauls add $30,000–$75,000 and $15,000–$35,000 respectively. Regional variations apply—urban areas like NYC/SF cost 20–30% more than rural markets :cite[1]:cite[4]:cite[10]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the typical timeline for a full house remodel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Standard timelines: (1) **Planning/design**: 2–6 months (permits, material orders), (2) **Construction**: 6–12 months (phased by area). Delays occur due to permit approvals (2–8 weeks), supply chain issues (8+ weeks for cabinets/appliances), or structural surprises. Design-build firms often complete projects 33% faster than traditional GCs by streamlining workflows :cite[2]:cite[6]:cite[9]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How to choose between a design-build firm versus separate contractors?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Design-build firms** offer: (1) Single-point accountability, (2) Fixed-price contracts, (3) Faster timelines (integrated design/construction). **Separate contractors** allow: (1) Custom architect selection, (2) Bid comparisons, (3) Hands-on project control. Choose design-build for complex projects (>$100K) or if prioritizing convenience; use GCs for smaller, phased work where cost-shopping matters :cite[3]:cite[7]:cite[9]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What permits are needed for a large-scale remodeling project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Required permits typically include: (1) **Building permits** ($500–$2,500) for structural/electrical/plumbing work, (2) **Zoning approvals** for additions, (3) **Historic district/Landmarks Commission** reviews if applicable. Design-build firms often handle permitting, reducing homeowner burden. Always verify local requirements—some cities mandate energy efficiency or seismic retrofits during major remodels :cite[2]:cite[5]:cite[7]."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How to budget realistically and handle unforeseen expenses?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Key strategies: (1) Allocate 10–20% contingency for surprises (rot, outdated wiring), (2) Prioritize 'must-haves' vs. 'nice-to-haves,' (3) Lock in material prices early to avoid inflation spikes. Unforeseen costs average 15% of budgets—common culprits include mold remediation ($2,200+), foundation repairs ($2,200–$7,700), or permit revisions. Value engineering (e.g., refacing cabinets vs. replacement) can recoup 5–10% of costs :cite[4]:cite[6]:cite[10]."
+      }
+    }
+  ]
+}

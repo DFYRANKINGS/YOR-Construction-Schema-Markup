@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How to verify if a paving contractor is licensed and insured?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To verify credentials: (1) Request their state contractor license number and check status online via your state's licensing board, (2) Ask for a Certificate of Insurance showing general liability ($1M minimum) and workers' compensation coverage, (3) Contact the insurance provider directly to confirm active policies, (4) Check for local business permits. Reputable contractors will provide this documentation willingly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What materials do paving contractors typically use?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common paving materials include: (1) Asphalt - cost-effective for driveways (lasts 15-20 years), (2) Concrete - durable but higher cost (30+ year lifespan), (3) Pavers - premium aesthetic (25+ years with maintenance), (4) Gravel - budget option (requires annual replenishing), (5) Recycled materials - eco-friendly asphalt mixes. Material choice depends on budget, climate, and intended use (e.g., asphalt outperforms concrete in freeze-thaw cycles)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does a paving project usually take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Project timelines vary: (1) Small residential driveways (600-800 sq ft): 1-2 days for asphalt (plus 2-3 days curing), 3-5 days for concrete (7-28 day cure), (2) Commercial parking lots: 1-3 weeks depending on size, (3) Paver installations: 3-7 days. Weather delays (rain/extreme heat) can extend timelines by 25-50%. Always confirm schedule details in writing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the warranties or guarantees offered by paving contractors?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Standard warranties include: (1) Workmanship (1-5 years covering installation defects), (2) Materials (varies by supplier - asphalt typically 1 year, concrete up to 10), (3) Structural (3-10 years for commercial projects). Beware of 'lifetime' warranties - legitimate offers specify transferability and maintenance requirements. Always get warranty terms in writing before work begins."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How to avoid paving scams and ensure quality work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Red flags and prevention tips: (1) Avoid door-to-door offers with 'leftover materials', (2) Demand detailed written contracts (materials, thickness, timeline), (3) Verify company physical address (not just PO boxes), (4) Check for complaints on BBB/state AG sites, (5) Never pay 100% upfront (30-50% deposit max), (6) Insist on proper base preparation (4-6 inch compacted gravel for driveways). Quality contractors belong to NAPA or state paving associations."
+      }
+    }
+  ]
+}

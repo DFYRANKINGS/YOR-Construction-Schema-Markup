@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What questions should I ask a patio contractor before hiring?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Essential questions to ask: (1) 'Can you provide a portfolio of completed patio projects in my area?' (2) 'Are you licensed, bonded, and insured for hardscape work in this state?' (3) 'What is your estimated timeline from design to completion?' (4) 'Do you handle all subcontractors (electricians, masons) or will I need to coordinate?' (5) 'What prep work is needed for my yard before installation?' (6) 'How do you handle unexpected issues like buried utilities or poor soil conditions?'"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the pricing include design and rendering services?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This varies by contractor: (1) Full-service firms typically include 2D/3D designs in their quotes (10-15% of total project cost), (2) Some charge separately for designs ($500-$2,500 for CAD renderings), (3) Budget contractors may offer only rough sketches. Always confirm what's included - quality firms provide scaled drawings showing materials, drainage plans, and elevation changes before signing contracts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How will the contractor communicate project updates?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Professional patio contractors should specify their communication protocol: (1) Weekly in-person updates for complex projects, (2) Daily progress photos via email/text apps, (3) Dedicated project portals for material selections and change orders, (4) 24-hour response time for urgent questions. Avoid contractors who rely solely on phone calls without documentation - written updates prevent misunderstandings about timelines or additional costs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who handles permits and inspections for patio construction?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Responsibility depends on: (1) Local requirements - permits are usually needed for patios over 200 sq ft or with electrical/plumbing, (2) Contractor services - most full-service firms pull permits ($150-$800) and schedule inspections, (3) DIY aspects - homeowners typically handle HOA approvals. Key question: 'Will your quote include all permit fees and inspection coordination?' Reputable contractors manage this process but may require your signature on applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What warranties are provided on materials and workmanship?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Standard coverage includes: (1) Materials - manufacturer warranties (e.g., 25+ years for pavers, 1 year for concrete), (2) Workmanship - typically 1-5 years for settling/drainage issues, (3) Specialized - 10+ years for structural elements like retaining walls. Demand written warranties specifying: transferability, exclusions (e.g., frost heave), and maintenance requirements. Premium contractors often offer extended warranties when using certified installers of brands like Belgard or Techo-Bloc."
+      }
+    }
+  ]
+}
