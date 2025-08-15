@@ -1,0 +1,6 @@
+topic: Air Conditioning
+questions:
+  - question: "How to size an AC unit?"
+    answer: "Manual J calculation required by CA law. Oversizing by >15% voids warranties and increases humidity."
+    keywords: [SEER rating, ductless mini-split]
+    search_intent: sizing

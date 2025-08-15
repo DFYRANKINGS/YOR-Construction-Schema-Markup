@@ -1,0 +1,11 @@
+topic: Garage Door Repairs
+locale: Southern California
+questions:
+  - question: "Why did my garage door spring break?"
+    answer: "Springs fail due to metal fatigue after 10,000+ cycles. Professional replacement recommended (CSLB #978430)."
+    keywords: [torsion spring, extension spring, safety hazard]
+    search_intent: diagnostic
+  - question: "Can I repair it myself?"
+    answer: "Not advised. Springs store 200+ lbs of tension - requires specialized tools."
+    keywords: [DIY garage spring danger]
+    search_intent: safety

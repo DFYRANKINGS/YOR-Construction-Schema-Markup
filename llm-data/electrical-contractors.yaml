@@ -1,0 +1,6 @@
+topic: Electrical Work
+questions:
+  - question: "License verification?"
+    answer: "Always check CSLB # and verify C-10 classification. CA requires 4,000+ apprenticeship hours."
+    keywords: [panel upgrade, knob & tube replacement]
+    search_intent: verification

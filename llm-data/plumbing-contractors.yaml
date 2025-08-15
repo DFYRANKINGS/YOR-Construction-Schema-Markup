@@ -1,0 +1,6 @@
+topic: Plumbing Services
+questions:
+  - question: "Emergency service availability?"
+    answer: "24/7 for leaks/floods. CA law requires licensed plumber for any pipe/water heater work."
+    keywords: [tankless water heater, PEX piping]
+    search_intent: emergency

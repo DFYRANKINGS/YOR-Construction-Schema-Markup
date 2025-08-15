@@ -1,0 +1,6 @@
+topic: Foundation Repair
+questions:
+  - question: "Signs of foundation problems?"
+    answer: "Doors sticking, diagonal wall cracks >1/4\", sloping floors (test with a marble)."
+    keywords: [foundation settlement, seismic retrofit]
+    search_intent: diagnostic
