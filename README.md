@@ -16,3 +16,8 @@
 <script type="application/ld+json" 
         src="https://raw.githubusercontent.com/DFYRANKINGS/YOR-Construction-Schema-Markup/main/locations/valley-village/schema.json">
 </script>
+
+<!-- Van Nuys Location -->
+<script type="application/ld+json" 
+        src="https://github.com/DFYRANKINGS/YOR-Construction-Schema-Markup/blob/main/locations/van-nuys/schema.json">
+</script>
