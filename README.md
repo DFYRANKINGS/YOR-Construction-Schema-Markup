@@ -9,7 +9,7 @@
 ```html
 <!-- Main Company Schema -->
 <script type="application/ld+json" 
-        src="https://raw.githubusercontent.com/DFYRANKINGS/YOR-Construction-Schema-Markup/main/YOR-Construction-Schema.json">
+        src="https://raw.githubusercontent.com/DFYRANKINGS/YOR-Construction-Schema-Markup/main/organization/YOR-Construction-Schema.json">
 </script>
 
 <!-- Valley Village Location -->
