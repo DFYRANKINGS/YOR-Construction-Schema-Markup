@@ -14,12 +14,14 @@ jobs:
       - name: Update Lastmod Dates
         run: |
           TODAY=$(date +%Y-%m-%d)
-          sed -i "s|<lastmod>.*</lastmod>|<lastmod>$TODAY</lastmod>|g" ai_sitemap.xml  # Changed from sitemap.xml
+          # CHANGE 1: Update path to llm-data/ai_sitemap.xml
+          sed -i "s|<lastmod>.*</lastmod>|<lastmod>$TODAY</lastmod>|g" llm-data/ai_sitemap.xml
           
       - name: Commit Changes
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add ai_sitemap.xml  # Changed from sitemap.xml
+          # CHANGE 2: Stage the correct file path
+          git add llm-data/ai_sitemap.xml
           git commit -m "Auto-update sitemap lastmod dates" || echo "No changes to commit"
           git push
