@@ -21,3 +21,8 @@
 <script type="application/ld+json" 
         src="https://github.com/DFYRANKINGS/YOR-Construction-Schema-Markup/blob/main/locations/van-nuys/schema.json">
 </script>
+
+<!-- Tarzana Location -->
+<script type="application/ld+json" 
+        src="https://github.com/DFYRANKINGS/YOR-Construction-Schema-Markup/blob/main/locations/tarzana/schema.json">
+</script>
