@@ -1,0 +1,46 @@
+name: Auto Refresh AI Files
+
+on:
+  schedule:
+    - cron: "0 4 * * 0"   # Every Sunday at 04:00 UTC
+  workflow_dispatch:       # Allow manual run from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Re-generate files
+        env:
+          SITE_BASE_URL: "https://dfyrankings.github.io/test-client"
+        run: |
+          python ai-generators/generate_files_xlsx.py
+
+      - name: Commit refreshed files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Automated refresh of generated AI files" || echo "No changes"
+          git push
+
+      - name: Ping search engines
+        if: github.ref == 'refs/heads/main'
+        run: |
+          curl "http://www.google.com/ping?sitemap=https://dfyrankings.github.io/test-client/ai-sitemap.xml"
+          curl "https://www.bing.com/ping?sitemap=https://dfyrankings.github.io/test-client/ai-sitemap.xml"
