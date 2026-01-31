@@ -238,6 +238,29 @@ def _normalize_records(payload):
         return [payload]
     return []
 
+
+
+# =========================
+# Folder resolution helpers (support legacy repos without /schemas)
+# =========================
+def resolve_dir(primary: str, alternates: list[str] | None = None) -> str:
+    """Return the first existing directory among primary + alternates, else primary."""
+    alternates = alternates or []
+    candidates = [primary] + alternates
+    for d in candidates:
+        if d and os.path.isdir(d):
+            return d
+    return primary
+
+def resolve_glob(primary_glob: str, alternate_globs: list[str] | None = None) -> str:
+    """Return the first glob pattern that matches at least one file."""
+    import glob
+    alternate_globs = alternate_globs or []
+    for g in [primary_glob] + alternate_globs:
+        if glob.glob(g):
+            return g
+    return primary_glob
+
 # =========================
 # Branding / meta driven by entity_name
 # =========================
@@ -253,6 +276,7 @@ def _load_first_yaml_json(path_glob):
 def _discover_entity_name_from_other_schemas():
     probes = [
         "schemas/organization/*.*",
+        "organization/*.*",
         "schemas/organizations/*.*",
         "schemas/company/*.*",
         "schemas/entity/*.*",
@@ -260,6 +284,7 @@ def _discover_entity_name_from_other_schemas():
         "schemas/reviews/*.*",
         "schemas/services/*.*",
         "schemas/locations/*.*",
+        "locations/*.*",
     ]
     for pat in probes:
         obj = _load_first_yaml_json(pat)
@@ -291,6 +316,8 @@ def load_org_meta():
     candidate_dirs = [
         "schemas/organization", "schemas/organizations",
         "schemas/company", "schemas/entity", "schemas/business",
+        "organization",
+        "organization",
     ]
     import glob
     org_file = None
@@ -388,20 +415,6 @@ def generate_page(title, content):
 </body>
 </html>"""
 
-
-
-def _write_placeholder_page(filename: str, title: str, message: str) -> bool:
-    """Always create the page file so downstream git steps don't fail."""
-    try:
-        with open(filename, "w", encoding="utf-8") as f:
-            f.write(generate_page(title, f"<p>{escape_html(message)}</p>"))
-        print(f"ℹ️  {filename} generated with placeholder content")
-        return True
-    except Exception as e:
-        print(f"❌ Failed to write placeholder {filename}: {e}")
-        return False
-
-
 # =========================
 # Pages
 # =========================
@@ -411,11 +424,11 @@ def generate_contact_page():
     Always renders a top 'Quick Contact' card (name/email/phone) from the first location,
     then renders full location card(s) below.
     """
-    locations_dir = "schemas/locations"
+    locations_dir = resolve_dir("schemas/locations", ["locations"])
     print(f"🔍 Checking contact data in: {locations_dir}")
     if not os.path.exists(locations_dir):
-        print(f"❌ Locations directory not found: {locations_dir} — writing placeholder contact.html")
-        return _write_placeholder_page("contact.html", "Contact Us", "Contact details are not available yet.")
+        print(f"❌ Locations directory not found: {locations_dir} — skipping contact.html")
+        return False
 
     def _extract_contact(loc):
         phone = _first_nonempty(_alias_get(loc, "phone"))
@@ -469,8 +482,10 @@ def generate_contact_page():
                 block += f"<strong>Contact:</strong> {escape_html(person)}<br>"
             if addr:
                 block += f"<strong>Address:</strong> {escape_html(addr)}<br>"
-            # Phone/Email are shown in the Quick Contact card above to avoid duplicates
-            # (and to keep each location card focused on address/hours/map).
+            if phone:
+                block += f"<strong>Phone:</strong> <a href='tel:{escape_html(phone)}'>{escape_html(phone)}</a><br>"
+            if email:
+                block += f"<strong>Email:</strong> <a href='mailto:{escape_html(email)}'>{escape_html(email)}</a><br>"
             if hours:
                 block += f"<strong>Hours:</strong> {escape_html(hours)}<br>"
             if site:
@@ -495,8 +510,8 @@ def generate_contact_page():
             rendered += 1
 
     if not items:
-        print(f"⚠️ No usable contact info found (scanned {files_seen} files, {records_seen} records). Writing placeholder contact.html")
-        return _write_placeholder_page("contact.html", "Contact Us", "Contact details are not available yet.")
+        print(f"⚠️ No usable contact info found (scanned {files_seen} files, {records_seen} records). Skipping contact.html")
+        return False
 
     # Intro + ALWAYS show Quick Contact (name + email + phone) from first record
     intro = "<p>We’d love to hear from you. Reach out using the details below or visit us at our offices.</p>"
@@ -518,11 +533,11 @@ def generate_contact_page():
     return True
 
 def generate_services_page():
-    services_dir = "schemas/services"
+    services_dir = resolve_dir("schemas/services", ["services"])
     print(f"🔍 Checking services data in: {services_dir}")
     if not os.path.exists(services_dir):
-        print(f"❌ Services directory not found: {services_dir} — writing placeholder services.html")
-        return _write_placeholder_page("services.html", "Our Services", "No services have been published yet.")
+        print(f"❌ Services directory not found: {services_dir} — skipping services.html")
+        return False
 
     def _guess_title(obj, filename):
         candidate = _first_nonempty(
@@ -598,8 +613,8 @@ def generate_services_page():
             """)
 
     if not items:
-        print("⚠️ No valid services found — writing placeholder services.html")
-        return _write_placeholder_page("services.html", "Our Services", "No services have been published yet.")
+        print("⚠️ No valid services found — skipping services.html")
+        return False
 
     with open("services.html", "w", encoding="utf-8") as f:
         f.write(generate_page("Our Services", "".join(items)))
@@ -610,54 +625,45 @@ def generate_services_page():
     return True
 
 def generate_testimonials_page():
-    reviews_dir = "schemas/reviews"
+    reviews_dir = resolve_dir("schemas/reviews", ["reviews", "testimonials"])
     print(f"🔍 Checking testimonials data in: {reviews_dir}")
+    if not os.path.exists(reviews_dir):
+        print(f"❌ Reviews directory not found: {reviews_dir} — skipping testimonials.html")
+        return False
 
     items = []
-    if os.path.exists(reviews_dir):
-        for file in os.listdir(reviews_dir):
-            if file.endswith((".json", ".yaml", ".yml")):
-                filepath = os.path.join(reviews_dir, file)
-                rev_data = load_data(filepath)
-                if not rev_data:
-                    continue
-                for rev in (rev_data if isinstance(rev_data, list) else [rev_data]):
-                    if not isinstance(rev, dict):
-                        continue
-                    author = rev.get('customer_name') or rev.get('author') or 'Anonymous'
-                    entity = rev.get('entity_name') or ''
-                    quote = rev.get('review_body') or rev.get('quote') or rev.get('review_title') or 'No review text provided.'
-                    try:
-                        rating = int(rev.get('rating', 5))
-                    except Exception:
-                        rating = 5
-                    rating = max(1, min(5, rating))
-                    date = rev.get('date') or ''
-                    star_display = '★' * rating + '☆' * (5 - rating)
-                    items.append(f"""
-                    <blockquote class="card" style="font-style: italic;">
-                        <p>“{escape_html(quote)}”</p>
-                        <footer style="margin-top: 1rem; font-style: normal;">
-                            — {escape_html(author)}{f', {escape_html(entity)}' if entity else ''}
-                            {f'<br/><small>{escape_html(date)}</small>' if date else ''}
-                        </footer>
-                        <div style="margin-top: 0.5rem;">{star_display}</div>
-                    </blockquote>
-                    """)
+    for file in os.listdir(reviews_dir):
+        if file.endswith((".json", ".yaml", ".yml")):
+            filepath = os.path.join(reviews_dir, file)
+            rev_data = load_data(filepath)
+            if not rev_data:
+                continue
+            for rev in (rev_data if isinstance(rev_data, list) else [rev_data]):
+                author = rev.get('customer_name') or rev.get('author') or 'Anonymous'
+                entity = rev.get('entity_name') or ''
+                quote = rev.get('review_body') or rev.get('quote') or rev.get('review_title') or 'No review text provided.'
+                rating = int(rev.get('rating', 5))
+                date = rev.get('date') or ''
+                star_display = '★' * rating + '☆' * (5 - rating)
+                items.append(f"""
+                <blockquote class="card" style="font-style: italic;">
+                    <p>“{escape_html(quote)}”</p>
+                    <footer style="margin-top: 1rem; font-style: normal;">
+                        — {escape_html(author)}{f', {escape_html(entity)}' if entity else ''}
+                        {f'<br/><small>{escape_html(date)}</small>' if date else ''}
+                    </footer>
+                    <div style="margin-top: 0.5rem; color: #f39c12;">{star_display}</div>
+                </blockquote>
+                """)
 
-    # ALWAYS write the page, even if there are no reviews yet.
     if not items:
-        placeholder = "<div class='card'><p>No testimonials have been published yet. Check back soon.</p></div>"
-        html = placeholder
-    else:
-        html = "".join(items)
+        print("⚠️ No valid testimonials found — skipping testimonials.html")
+        return False
 
     with open("testimonials.html", "w", encoding="utf-8") as f:
-        f.write(generate_page("Testimonials", html))
-
+        f.write(generate_page("Testimonials", "".join(items)))
     print(f"✅ testimonials.html generated ({len(items)} testimonials)")
     return True
-
 
 def generate_index_page():
     """Home: show 'Welcome to {Entity}' in the visible H1 and keep <title> = '{Entity} — Welcome'."""
@@ -687,13 +693,19 @@ def generate_index_page():
     base_url = f"https://raw.githubusercontent.com/{repo_slug}/main"
     print(f"🌐 Base URL for schema files: {base_url}")
 
-    for root, dirs, files in os.walk("schemas"):
-        for file in files:
-            if file.endswith((".json", ".yaml", ".yml", ".md", ".llm")):
-                filepath = os.path.join(root, file).replace("\\", "/")
-                full_url = f"{base_url}/{filepath}"
-                display_path = filepath.replace("schemas/", "")
-                file_links.append(f'<li><a href="{full_url}" target="_blank">{escape_html(display_path)}</a></li>')
+    for root_dir in ["schemas", "organization", "locations", "faq-schemas", "llm-data"]:
+        if not os.path.isdir(root_dir):
+            continue
+        for root, dirs, files in os.walk(root_dir):
+            for file in files:
+                if file.endswith((".json", ".yaml", ".yml", ".md", ".llm", ".txt")):
+                    filepath = os.path.join(root, file).replace("\\", "/")
+                    full_url = f"{base_url}/{filepath}"
+                    # Trim the leading folder name for display
+                    display_path = filepath
+                    if display_path.startswith("schemas/"):
+                        display_path = display_path.replace("schemas/", "", 1)
+                    file_links.append(f'<li><a href="{full_url}" target="_blank">{escape_html(display_path)}</a></li>')
 
     content = f"""
     <p>Welcome to our AI-optimized data hub. Below are quick links to key sections, or browse all machine-readable files.</p>
@@ -721,6 +733,8 @@ def generate_about_page():
         "schemas/company",
         "schemas/entity",
         "schemas/business",
+        "organization",
+        "organization",
     ]
     org_dir = next((d for d in candidate_dirs if os.path.isdir(d)), None)
 
@@ -735,9 +749,9 @@ def generate_about_page():
                 org = data[0] if isinstance(data, list) else data
 
     # Gather summary from other schemas
-    services_dir = "schemas/services"
-    locations_dir = "schemas/locations"
-    reviews_dir = "schemas/reviews"
+    services_dir = resolve_dir("schemas/services", ["services"])
+    locations_dir = resolve_dir("schemas/locations", ["locations"])
+    reviews_dir = resolve_dir("schemas/reviews", ["reviews", "testimonials"])
 
     # Count services
     service_titles = []
@@ -867,11 +881,11 @@ def generate_about_page():
     return True
 
 def generate_faq_page():
-    faq_dir = "schemas/faqs"
+    faq_dir = resolve_dir("schemas/faqs", ["faq-schemas"])
     print(f"🔍 Checking FAQs in: {faq_dir}")
     if not os.path.exists(faq_dir):
-        print(f"❌ FAQ directory not found: {faq_dir} — writing placeholder faqs.html")
-        return _write_placeholder_page("faqs.html", "Frequently Asked Questions", "No FAQs have been published yet.")
+        print(f"❌ FAQ directory not found: {faq_dir} — skipping faqs.html")
+        return False
 
     items = []
     for file in os.listdir(faq_dir):
@@ -893,8 +907,8 @@ def generate_faq_page():
                 """)
 
     if not items:
-        print("⚠️ No valid FAQs found — writing placeholder faqs.html")
-        return _write_placeholder_page("faqs.html", "Frequently Asked Questions", "No FAQs have been published yet.")
+        print("⚠️ No valid FAQs found — skipping faqs.html")
+        return False
 
     with open("faqs.html", "w", encoding="utf-8") as f:
         f.write(generate_page("Frequently Asked Questions", "".join(items)))
@@ -902,18 +916,18 @@ def generate_faq_page():
     return True
 
 def generate_help_articles_page():
-    help_dir = "schemas/help-articles"
+    help_dir = resolve_dir("schemas/help-articles", ["help-articles", "help_articles"])
     print(f"🔍 Looking for help articles in: {help_dir}")
     if not os.path.exists(help_dir):
-        print(f"❌ Folder not found: {help_dir} — writing placeholder help.html")
-        return _write_placeholder_page("help.html", "Help Center", "No help articles have been published yet.")
+        print(f"❌ Folder not found: {help_dir}")
+        return False
 
     files_found = [f for f in os.listdir(help_dir) if f.endswith(".md")]
     print(f"📄 Found {len(files_found)} .md files: {files_found[:5]}")
 
     if not files_found:
-        print("⚠️ No .md files found — writing placeholder help.html")
-        return _write_placeholder_page("help.html", "Help Center", "No help articles have been published yet.")
+        print("⚠️ No .md files found — skipping help.html")
+        return False
 
     articles = []
     for file in files_found:
@@ -974,17 +988,20 @@ def generate_help_articles_page():
 # Entry point
 # =========================
 def find_repo_root():
-    """Find a directory that contains 'schemas' by walking up from script dir."""
+    """Find repo root by locating any known content folder."""
     script_dir = os.path.dirname(os.path.abspath(__file__))
     cur = script_dir
-    for _ in range(4):
-        if os.path.isdir(os.path.join(cur, "schemas")):
-            return cur
+    needles = ["schemas", "organization", "locations", "faq-schemas", "llm-data"]
+    for _ in range(6):
+        for n in needles:
+            if os.path.isdir(os.path.join(cur, n)):
+                return cur
         parent = os.path.dirname(cur)
         if parent == cur:
             break
         cur = parent
     return script_dir  # fallback
+
 
 if __name__ == "__main__":
     print("🚀 STARTING build_public_pages.py — GENERIC VERSION FOR ANY REPO")
@@ -993,11 +1010,15 @@ if __name__ == "__main__":
     os.chdir(REPO_ROOT)
     print(f"✅ WORKING DIRECTORY SET TO: {REPO_ROOT}")
 
-    if not os.path.exists("schemas"):
-        print("❌ FATAL: schemas/ folder not found at repo root")
+    if not any(os.path.exists(d) for d in ["schemas","organization","locations","faq-schemas","llm-data"]):
+        print("❌ FATAL: no content folders found (expected one of: schemas/, organization/, locations/, faq-schemas/, llm-data/)")
         sys.exit(1)
     else:
-        print(f"📁 schemas/ contents: {os.listdir('schemas')[:10]}")
+        if os.path.exists("schemas"):
+            print(f"📁 schemas/ contents: {os.listdir('schemas')[:10]}")
+        for d in ["organization","locations","faq-schemas","llm-data"]:
+            if os.path.exists(d):
+                print(f"📁 {d}/ contents: {os.listdir(d)[:10]}")
 
     open(".nojekyll", "w").close()
     print("✅ Created .nojekyll file for GitHub Pages")
