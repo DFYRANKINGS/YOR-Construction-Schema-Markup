@@ -353,6 +353,17 @@ def load_org_meta():
 
     return meta
 
+
+# =========================
+# Folder resolution (supports repos that do NOT use schemas/)
+# =========================
+def _pick_dir(candidates):
+    """Return the first existing directory from candidates, else the first candidate."""
+    for d in candidates:
+        if os.path.isdir(d):
+            return d
+    return candidates[0] if candidates else ""
+
 # =========================
 # HTML shell
 # =========================
