@@ -32,7 +32,7 @@ jobs:
           pip install pyyaml
 
       - name: Build public pages
-        run: python build_public_pages.py
+        run: python ai-generators/build_public_pages.py
 
       - name: Build sitemaps
         run: python generate_sitemaps.py
